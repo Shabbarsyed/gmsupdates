@@ -1638,6 +1638,10 @@ font-size: 1.2rem;
   
   }
 
+  .div3 {
+    background-image: url("assets/images/images.jpg");
+  }
+
   .container-section42 img{
     width:100% ; 
     height: 700%; 
