@@ -1413,16 +1413,14 @@ work Section style
 @keyframes animate {
 
     0% {
-        content: "ACTIVE";
+        content: "Best";
     }
 
     50% {
         content: "FIT";
     }
 
-    75% {
-        content: "BEST";
-    }
+    
 }
 
 
@@ -1436,10 +1434,10 @@ work Section style
   }
 
   .content-1 h2 {
-    font-size: 2.2 rem;
+    font-size: 2.2rem;
     margin-bottom: 20px;
     position: relative;
-    color: #1A237E;
+    color: #8d8b8b;
     font-weight: 900;
     text-transform: uppercase;
     top: 400px;
@@ -1465,13 +1463,13 @@ transform: rotate(90deg);
   .content-1 ul {
     font-size: 1.2em;
     margin-bottom: 100px;
-    margin-left: 50px;
+    margin-left: 80px;
     line-height: 1.5;
     color: black;
   }
 
   .content-1 button {
-    margin-left: 50px;
+    margin-left: 70px;
     bottom: 35px;
 height: 60px;
 width: 200px;
@@ -1480,13 +1478,13 @@ color: #1A237E;
 border-radius: 12px;
 border-color: #1A237E;
 background-color: transparent;
-font-size: 22px;
+font-size: 1.2rem;
   }
 
   .content-1 button:hover {
     border-color:#1A237E ;
     color: #1A237E;
-    margin-left: 65px;
+    margin-left: 77px;
   }
 
   .container-1 {
@@ -1509,4 +1507,10 @@ font-size: 22px;
     height: auto;
     padding-left: 150px;
    
+  }
+
+  .container-1 h1{
+    margin-left: 5.2rem;
+    font-weight: 800;
+    color: #1A237E;
   }
