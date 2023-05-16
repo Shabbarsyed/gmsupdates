@@ -1714,3 +1714,7 @@ font-size: 1.2rem;
   .content-5 img{
     width: 200px;
   }
+
+  .footer {
+    background-color: #424242;
+  }
