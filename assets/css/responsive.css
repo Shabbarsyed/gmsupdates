@@ -74,6 +74,30 @@ Author URI: http://www.xpeedstudio.com
       
       
 
+      /* 2nd div work */
+      .container-1 h1{
+        margin-left: 5rem;
+        font-weight: 800;
+        word-spacing: normal;
+        font-size: 2.1rem;
+        color: #1A237E;
+      }
+
+  .content-1 h2 {
+    font-size:  1.8rem;
+    margin-bottom: 0px;
+    position: relative;
+    color: #8d8b8b;
+    font-weight: 900;
+    text-transform: uppercase;
+    top: 400px;
+    
+    /* Rotate from top left corner (not default) */
+    transform-origin: 0 0;
+   transform: rotate(270deg);
+  }
+
+
 
 }
 
