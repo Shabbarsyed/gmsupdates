@@ -880,8 +880,8 @@ Home Section style
     background: url(../images/hero-bg.png) no-repeat scroll  center center;
     background-size: cover;
     position: relative;
-    padding-top: 300px;
-    padding-bottom: 190px;
+    padding-top: 250px;
+    padding-bottom: 80px;
     width:100%;
 }
 .main_home .home_text h2{
@@ -1377,10 +1377,13 @@ work Section style
   @media (min-width: 1080px) {
     .div1 h2{
         font-size: 70px;
+        color: #E0E0E0;
         font-weight: 900px;
       }
       .div1 p{
+        color: #E0E0E0;
         margin-top: 40px;
+        font-size: 20px;
       }
 
   }

@@ -50,6 +50,26 @@ Author URI: http://www.xpeedstudio.com
         right:0%;
     }
 
+    .div1 {
+        float: left;
+        width: 50%;
+        padding: 10px;
+        height: 100%; /* Should be removed. Only for demonstration */
+      }
+    
+      .div2 {
+        float: right;
+        width: 50%;
+        
+        height: 100%; /* Should be removed. Only for demonstration */
+      }
+      
+      /* Clear floats after the columns */
+      .div1row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
 
 
 }
@@ -62,8 +82,8 @@ Author URI: http://www.xpeedstudio.com
         font-size:2rem;
     }
     p{
-        font-size:90%;
-        line-height: 2rem;
+        font-size:70%;
+        line-height: 1rem;
     }
     .xs-pull-none{
         float: none !important;
