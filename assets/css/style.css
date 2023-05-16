@@ -1598,7 +1598,6 @@ font-size: 1.2rem;
     align-items: center;
     justify-content: space-between;
     position: relative;
-    
     margin: 0 auto;
     padding: 20px 20px;
   }
@@ -1636,11 +1635,14 @@ font-size: 1.2rem;
   .div3 {
     background-image: url('assets/images/images.jpg');
     background-color: #E0E0E0;
+    align-items: center;
+    height: 590px;
   }
 
   .container-section4 img{
+    margin-top: -60px;
     width:50% ; 
-    height: 70%; 
+    height: 100%; 
      /* padding-left: 220px; */
   }
   
@@ -1663,8 +1665,8 @@ font-size: 1.2rem;
   .container-section5 img{
     width:55% ; 
     height: 70%; 
-
-    margin-left: 225px;
+    margin-top: -60px;
+    margin-left: 235px;
      float: right;
   }
 
@@ -1678,9 +1680,11 @@ font-size: 1.2rem;
   
 
   .container-section5 h2 {
+    /* margin-top: -80px; */
     padding-left: 10px;
     font-size: 20px;
     text-align: center;
+
   
   }
   .container-section5 h1 {
@@ -1699,11 +1703,14 @@ font-size: 1.2rem;
     margin-right: 90px;
   }
 
+  .container-section5 line {
+    
+  }
 
   .content-5 ul {
     text-align: center;
     font-size: 2rem;
-    margin-top: 110px;
+   margin-top: -40px;
     font-weight: 600;
     margin-bottom: 100px;
     margin-left: 200px;
