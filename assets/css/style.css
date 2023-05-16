@@ -1424,3 +1424,65 @@ work Section style
         content: "BEST";
     }
 }
+
+
+/* --------------------------------- */
+/* 2nd div clinical diagnosis */
+/* -------------------------------------- */
+
+.content-1 {
+    flex-basis: 70%;
+    text-align: justify;
+  }
+
+  .content-1 h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    position: relative;
+    color: #1E9FBF;
+    font-weight: 900;
+    right: 100px;
+    text-transform: uppercase;
+    top: 440px;
+    /* Rotate from top left corner (not default) */
+    transform-origin: 0 0;
+   transform: rotate(270deg);
+  }
+
+/*   .content-1 h2::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 200px;
+    height: 3px;
+    background-color: #1E9FBF;
+     transform-origin: 0 0;
+transform: rotate(90deg);
+
+  }*/
+
+  .content-1 ul {
+    font-size: 1.2em;
+    margin-bottom: 100px;
+    line-height: 1.5;
+    color: black;
+  }
+
+  .content-1 button {
+   
+height: 60px;
+width: 200px;
+position: absolute;
+color: black ;
+border-radius: 12px;
+border-color: black;
+background-color: transparent;
+font-size: 22px;
+  }
+
+  .content-1 button:hover {
+    border-color:#2A9EDF ;
+    color: #2A9EDF;
+  }
+
