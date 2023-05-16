@@ -11,7 +11,7 @@ Author URI: http://www.xpeedstudio.com
         font-size: 1rem;
     }
     
-    
+  
     
 }
 
@@ -96,6 +96,22 @@ Author URI: http://www.xpeedstudio.com
     transform-origin: 0 0;
    transform: rotate(270deg);
   }
+
+  
+  .content-2 h2 {
+    font-size:  1.8rem;
+    margin-bottom: 0px;
+    position: relative;
+    color: #8d8b8b;
+    font-weight: 900;
+    text-transform: uppercase;
+    top: 400px;
+    
+    /* Rotate from top left corner (not default) */
+    transform-origin: 0 0;
+   transform: rotate(270deg);
+  }
+
 
 
 
@@ -266,8 +282,100 @@ font-size: 1.2rem;
     margin: 0 auto;
     padding: 20px 20px;
   }
+  
+
+/* 3div */
+
+
+.content-2 {
+    flex-basis: 100%;
+    text-align: justify;
+  }
+
+  .content-2 h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    position: relative;
+    color: #E0E0E0;
+    font-weight: 900;
+    text-transform: uppercase;
+    top: 330px;
+    
+    /* Rotate from top left corner (not default) */
+    transform-origin: 0 0;
+   transform: rotate(270deg);
+  }
+
+/*   .content-1 h2::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 200px;
+    height: 3px;
+    background-color: #1E9FBF;
+     transform-origin: 0 0;
+transform: rotate(90deg);
+
+  }*/
+
+  .content-2 ul {
+    font-size: 0.8rem;
+    margin-bottom: 100px;
+    margin-left: 60px;
+    line-height: 1.5;
+    color: #E0E0E0;
+  }
+
+  .content-2 button {
+    margin-left: 70px;
+    bottom: 35px;
+height: 60px;
+width: 14rem;
+position: relative;
+color: #E0E0E0;
+border-radius: 12px;
+border-color: #E0E0E0;
+background-color: transparent;
+font-size: 1.2rem;
+  }
+
+  .content-2 button:hover {
+    margin-left: 77px;
+  }
+
+  .image {
+    flex-basis: 100%;
+    
+  }
+
+  .image img {
+    width: 80%;
+    height: auto;
+    padding-left: 4rem;
+   
+  }
+
+  .container-2 h1{
+    margin-left: 4.8rem;
+    font-size: 2rem;
+    font-weight: 800;
+    color: #E0E0E0;
+  }
+
+  .container-2 {
+    display: contents;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    
+    margin: 0 auto;
+    padding: 20px 20px;
+  }
 
 }
+
+
 
 
 

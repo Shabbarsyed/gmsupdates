@@ -973,7 +973,10 @@ Featured section style
 }
 
 /*Business Section*/
-.main_business{}
+.main_business{
+
+}
+
 .business_item{}
 .business_item h2{
     font-size:26px;
@@ -1519,53 +1522,27 @@ font-size: 1.2rem;
 
   /* //3rd div design here */
 
-  .container-2 {
-    border-color: #F5F5F5;
-    background-color: #F5F5F5;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 0 auto;
-    padding: 20px 20px;
-    
-  }
 
-  .image-2 {
+/* 3div */
+
+
+.content-2 {
     flex-basis: 100%;
-    
-  }
-
-  .image-2 img {
-    width: 30%;
-    height: auto;
-    padding-left: 300px;
-
-  }
-
-  .content-2 {
-    flex-basis: 70%;
     text-align: justify;
   }
 
-
-  .content-2 h1{
-    padding-left: 6.5rem;
-    font-weight: 800;
-    color: #1A237E;
-
-  }
   .content-2 h2 {
-    font-size: 3em;
+    font-size:  1.8rem;
     margin-bottom: 10px;
     position: relative;
-    color: #9E9E9E;
+    color: #E0E0E0;
     font-weight: 900;
-    margin-left:30px ;
     text-transform: uppercase;
-    top: 390px;
+    top: 330px;
+    
     /* Rotate from top left corner (not default) */
-transform-origin: 0 0;
-transform: rotate(270deg);
+    transform-origin: 0 0;
+   transform: rotate(270deg);
   }
 
 /*   .content-1 h2::after {
@@ -1582,27 +1559,82 @@ transform: rotate(90deg);
   }*/
 
   .content-2 ul {
-    font-size: 1.2em;
+    font-size: 1.2rem;
     margin-bottom: 100px;
+    margin-left: 60px;
     line-height: 1.5;
-    color: black;
-    margin-left: 100px;
+    color: #E0E0E0;
   }
 
   .content-2 button {
-padding-left: 300px;
+    margin-left: 70px;
+    bottom: 35px;
 height: 60px;
-width: 200px;
-position: absolute;
-color: black ;
+width: 14rem;
+position: relative;
+color: #E0E0E0;
 border-radius: 12px;
-border-color: black;
+border-color: #E0E0E0;
 background-color: transparent;
-font-size: 22px;
-
+font-size: 1.2rem;
   }
 
   .content-2 button:hover {
-    border-color:#2A9EDF ;
-    color: #2A9EDF;
+    margin-left: 77px;
   }
+
+
+
+  .container-2 h1{
+    margin-left: 4.8rem;
+    font-size: 2rem;
+    font-weight: 800;
+    color: #E0E0E0;
+  }
+
+  .container-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    
+    margin: 0 auto;
+    padding: 20px 20px;
+  }
+
+
+
+  /* Main member Section  */
+  .container-section4 {
+    display: flex;
+    align-items: center;
+    align-content: center;
+  
+  /*  justify-content: center;*/
+  }
+  
+  .container-section42 {
+    padding-left: 160px;
+   display: flex;
+   max-width: 100%;
+    align-items: center;
+    align-content: center;
+  }
+  .container-section4 h2 {
+    padding-left: 10px;
+    font-size: 20px;
+    text-align: center;
+  
+  }
+  .container-section4 h1 {
+    /* padding-left: 10px; */
+    
+    font-size: 30px;
+    display: contents;
+    position: relative;
+    text-align: center;
+    font-weight: 900;
+    color: #2A9EDF;
+  
+  }
+  
