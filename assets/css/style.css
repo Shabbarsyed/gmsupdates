@@ -378,15 +378,15 @@ Button
 }
 .btn-primary{
     color: #fff;
-    background-color: #00a885;
+    background-color: #1A237E;
     border:1px solid;
-    border-color: #00a885;
+    border-color: #1A237E;
 
 }
 .btn-primary:hover{
     background-color: #eee;
     border-color: #eee;
-    color:#00a885;
+    color:#1A237E;
 }
 
 .btn-default{
@@ -1360,13 +1360,31 @@ work Section style
     padding: 10px;
     height: 100%; /* Should be removed. Only for demonstration */
   }
+
+
+  
+
  
   .div2 {
     float: right;
-    
-    
     height: 100%; /* Should be removed. Only for demonstration */
   }
+
+  .div1 h2{
+    font-weight: 900px;
+  }
+
+  @media (min-width: 1080px) {
+    .div1 h2{
+        font-size: 70px;
+        font-weight: 900px;
+      }
+      .div1 p{
+        margin-top: 40px;
+      }
+
+  }
+ 
   
   /* Clear floats after the columns */
   .div1row:after {
@@ -1374,3 +1392,32 @@ work Section style
     display: table;
     clear: both;
   }
+
+
+
+  /* //animtaion text// */
+
+  .div1 span::before {
+    content: "ACTIVE";
+/*            animation: animate  infinite 4s ;*/
+    /* padding-left: px; */
+    font-weight: 700;
+    color: #1A237E;
+    animation: animate 5s ease-in-out infinite;
+
+}
+
+@keyframes animate {
+
+    0% {
+        content: "ACTIVE";
+    }
+
+    50% {
+        content: "FIT";
+    }
+
+    75% {
+        content: "BEST";
+    }
+}
