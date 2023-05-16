@@ -1401,7 +1401,7 @@ work Section style
   /* //animtaion text// */
 
   .div1 span::before {
-    content: "ACTIVE";
+    content: "FIT";
 /*            animation: animate  infinite 4s ;*/
     /* padding-left: px; */
     font-weight: 700;
@@ -1413,7 +1413,7 @@ work Section style
 @keyframes animate {
 
     0% {
-        content: "Best";
+        content: "BEST";
     }
 
     50% {

@@ -162,7 +162,7 @@ Author URI: http://www.xpeedstudio.com
     color: #8d8b8b;
     font-weight: 900;
     text-transform: uppercase;
-    top: 400px;
+    top: 330px;
     
     /* Rotate from top left corner (not default) */
     transform-origin: 0 0;
@@ -183,7 +183,7 @@ transform: rotate(90deg);
   }*/
 
   .content-1 ul {
-    font-size: 1rem;
+    font-size: 0.8rem;
     margin-bottom: 100px;
     margin-left: 80px;
     line-height: 1.5;
@@ -194,7 +194,7 @@ transform: rotate(90deg);
     margin-left: 70px;
     bottom: 35px;
 height: 60px;
-width: 200px;
+width: 14rem;
 position: relative;
 color: #1A237E;
 border-radius: 12px;
@@ -232,7 +232,7 @@ font-size: 1.2rem;
   }
 
   .container-1 h1{
-    margin-left: 5.2rem;
+    margin-left: 4.8rem;
     font-size: 2rem;
     font-weight: 800;
     color: #1A237E;
