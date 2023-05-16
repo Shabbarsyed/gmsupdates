@@ -1514,3 +1514,88 @@ font-size: 1.2rem;
     font-weight: 800;
     color: #1A237E;
   }
+
+
+
+  /* //3rd div design here */
+
+  .container-2 {
+    border-color: #F5F5F5;
+    background-color: #F5F5F5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 20px 20px;
+    
+  }
+
+  .image-2 {
+    flex-basis: 100%;
+    
+  }
+
+  .image-2 img {
+    width: 30%;
+    height: auto;
+    padding-left: 300px;
+
+  }
+
+  .content-2 {
+    flex-basis: 70%;
+    text-align: justify;
+  }
+
+  .content-2 h2 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    position: relative;
+    color: #9E9E9E;
+    font-weight: 900;
+    margin-left:-100px ;
+    text-transform: uppercase;
+    top: 470px;
+    /* Rotate from top left corner (not default) */
+transform-origin: 0 0;
+transform: rotate(270deg);
+  }
+
+/*   .content-1 h2::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 200px;
+    height: 3px;
+    background-color: #1E9FBF;
+     transform-origin: 0 0;
+transform: rotate(90deg);
+
+  }*/
+
+  .content-2 ul {
+    font-size: 1.2em;
+    margin-bottom: 100px;
+    line-height: 1.5;
+    color: black;
+    margin-left: 100px;
+  }
+
+  .content-2 button {
+padding-left: 300px;
+height: 60px;
+width: 200px;
+position: absolute;
+color: black ;
+border-radius: 12px;
+border-color: black;
+background-color: transparent;
+font-size: 22px;
+
+  }
+
+  .content-2 button:hover {
+    border-color:#2A9EDF ;
+    color: #2A9EDF;
+  }
