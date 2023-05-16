@@ -1627,14 +1627,20 @@ font-size: 1.2rem;
   
   }
   .container-section4 h1 {
-    /* padding-left: 10px; */
+    
     
     font-size: 30px;
-    display: contents;
+    
     position: relative;
     text-align: center;
     font-weight: 900;
     color: #2A9EDF;
   
+  }
+
+  .container-section42 img{
+    width:100% ; 
+    height: 700%; 
+     /* padding-left: 220px; */
   }
   
