@@ -1363,7 +1363,7 @@ work Section style
  
   .div2 {
     float: right;
-    width: 50%;
+    
     
     height: 100%; /* Should be removed. Only for demonstration */
   }
