@@ -983,6 +983,7 @@ Featured section style
     font-weight: 800;
 }
 .business_item li{
+    color: #424242;
     font-size:18px;
     font-weight: 300;
     line-height: 2rem;
