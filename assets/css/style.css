@@ -390,15 +390,15 @@ Button
 }
 
 .btn-default{
-    color: #fff;
+    color: #000;
     background-color: transparent;
     border:1px solid;
     border-color: #b6b6b6;
 }
 .btn-default:hover{
     color: #fff;
-    background-color: #00a885;
-    border-color: #00a885;
+    background-color: #1A237E;
+    border-color: #1A237E;
 }
 
 
@@ -1005,9 +1005,9 @@ Featured section style
 .business_item .business_btn a{
     margin-left:10px;
 }
-.business_item .business_btn .btn-default{
-    color:#444444;
-}
+/* .business_item .business_btn .btn-default{
+    color:#E0E0E0;
+} */
 
 
 .slid_shap{
@@ -1097,6 +1097,7 @@ work Section style
     font-size:1rem;
     text-align: center;
     top:30%;
+    
 }
 .main_product .carousel-control:hover{
     background-color: #00a885;
@@ -1724,4 +1725,8 @@ font-size: 1.2rem;
 
   .footer {
     background-color: #424242;
+  }
+
+  .port_caption {
+    text-align: center;
   }
