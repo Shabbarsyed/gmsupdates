@@ -882,6 +882,7 @@ Home Section style
     position: relative;
     padding-top: 250px;
     padding-bottom: 80px;
+    
     width:100%;
 }
 .main_home .home_text h2{
@@ -1115,10 +1116,14 @@ work Section style
 .main_product .port_img{
     position: relative;
     overflow: hidden;
+    align-items: center;
+
+
 }
 
 .main_product .port_img img{
-    width:100%;
+    width:60%;
+    
 }
 .main_product .port_overlay{
     width:100%;
