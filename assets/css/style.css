@@ -374,7 +374,7 @@ Button
     font-size:14px;
     font-weight: 600;
     border:1px solid;
-    padding: 1rem 4rem;
+    padding: 0.7rem 2.8rem;
 }
 .btn-primary{
     color: #fff;
@@ -1507,7 +1507,7 @@ transform: rotate(90deg);
     font-weight: 600;
     border:1px solid;
     margin-bottom: 120px;
-    margin-top: -30px;
+    margin-top: -80px;
   }
 
   /* .content-1 button:hover {
@@ -1546,6 +1546,7 @@ transform: rotate(90deg);
     margin-left: 1rem;
     font-weight: 800;
     color: #1A237E;
+    margin-top: 50px;
   }
 
 
@@ -1605,7 +1606,7 @@ transform: rotate(90deg);
     font-weight: 600;
     border:1px solid;
     margin-bottom: 120px;
-    margin-top: -30px;
+    margin-top: -80px;
 
   }
 
