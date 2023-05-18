@@ -1458,7 +1458,7 @@ work Section style
 
 .content-1 {
     flex-basis: 70%;
-    text-align: justify;
+    text-align: left;
     margin-top : -88px  ;
   }
 
@@ -1470,6 +1470,7 @@ work Section style
     font-weight: 900;
     text-transform: uppercase;
     top: 400px;
+    margin-left: -60px;
     
     /* Rotate from top left corner (not default) */
     transform-origin: 0 0;
@@ -1492,13 +1493,13 @@ transform: rotate(90deg);
   .content-1 ul {
     font-size: 1.2em;
     margin-bottom: 100px;
-    margin-left: 80px;
+    margin-left: 10px;
     line-height: 1.5;
     color: black;
   }
 
   .content-1 button {
-    margin-left: 70px;
+    margin-left: 20px;
     bottom: 35px;
     -webkit-transition: all 0.6s;
     transition: all 0.6s;
@@ -1514,6 +1515,7 @@ transform: rotate(90deg);
     color: #1A237E;
     margin-left: 77px;
   } */
+
 
   .container-1 {
     display: flex;
@@ -1540,7 +1542,7 @@ transform: rotate(90deg);
   }
 
   .container-1 h1{
-    margin-left: 5.2rem;
+    margin-left: 1rem;
     font-weight: 800;
     color: #1A237E;
   }
@@ -1596,18 +1598,18 @@ transform: rotate(90deg);
   .content-2 button {
     margin-left: 70px;
     bottom: 35px;
-height: 60px;
-width: 14rem;
-position: relative;
-color: #E0E0E0;
-border-radius: 12px;
-border-color: #E0E0E0;
-background-color: transparent;
-font-size: 1.2rem;
+    -webkit-transition: all 0.6s;
+    transition: all 0.6s;
+    font-size:14px;
+    font-weight: 600;
+    border:1px solid;
+    margin-bottom: 120px;
+    margin-top: -30px;
+
   }
 
   .content-2 button:hover {
-    margin-left: 77px;
+    border-color: #E0E0E0;
   }
 
 
@@ -2259,6 +2261,9 @@ transform: rotate(90deg);
    */
 
 
+   /* /// in this we are going to remove the above spaces from the mobile view */
 
-
+   /* .business {
+    margin-top: -500px
+  } */
  

@@ -75,6 +75,18 @@ Author URI: http://www.xpeedstudio.com
       
 
       /* 2nd div work */
+      .content-1 button {
+        margin-left: 70px;
+        bottom: 35px;
+        -webkit-transition: all 0.6s;
+        transition: all 0.6s;
+        font-size:14px;
+        font-weight: 600;
+        border:1px solid;
+        margin-bottom: 120px;
+        margin-top: -30px;
+      }
+    
       .container-1 h1{
         margin-left: 5rem;
         font-weight: 800;
@@ -163,6 +175,8 @@ Author URI: http://www.xpeedstudio.com
   transform-origin: 0 0;
  transform: rotate(270deg);
 }
+
+
 
 /*   .content-1 h2::after {
   content: "";
@@ -265,6 +279,11 @@ transform: rotate(90deg);
         align-content: center;
     }
 
+
+    .lastdiv {
+      margin-top: -700px;
+    }
+
     .div1 {
         float: left;
         width: 50%;
@@ -295,10 +314,11 @@ transform: rotate(90deg);
 
 .content-1 {
     flex-basis: 100%;
-    text-align: justify;
+    text-align: center;
   }
 
   .content-1 h2 {
+    
     font-size:  22px;
     margin-bottom: 10px;
     position: relative;
@@ -310,6 +330,20 @@ transform: rotate(90deg);
     /* Rotate from top left corner (not default) */
     transform-origin: 0 0;
    transform: rotate(270deg);
+  }
+
+
+  .content-1 button {
+    
+    margin-left: 90px;
+    bottom: 35px;
+    -webkit-transition: all 0.6s;
+    transition: all 0.6s;
+    font-size:14px;
+    font-weight: 600;
+    border:1px solid;
+    margin-bottom: 120px;
+    margin-top: -30px;
   }
 
 /*   .content-1 h2::after {
@@ -326,30 +360,13 @@ transform: rotate(90deg);
   }*/
 
   .content-1 ul {
+    align-content: center;
+    text-align: center;
     font-size: 0.8rem;
     margin-bottom: 100px;
-    margin-left: 60px;
+    
     line-height: 1.5;
     color: black;
-  }
-
-  .content-1 button {
-    margin-left: 70px;
-    bottom: 35px;
-height: 60px;
-width: 14rem;
-position: relative;
-color: #1A237E;
-border-radius: 12px;
-border-color: #1A237E;
-background-color: transparent;
-font-size: 1.2rem;
-  }
-
-  .content-1 button:hover {
-    border-color:#1A237E ;
-    color: #1A237E;
-    margin-left: 77px;
   }
 
 
@@ -357,7 +374,7 @@ font-size: 1.2rem;
  
 
   .container-1 h1{
-    margin-left: 4.8rem;
+    margin-left: 7rem;
     font-size: 2rem;
     font-weight: 800;
     color: #1A237E;
@@ -691,7 +708,9 @@ color: transparent;
 
 
 
-
+/* .business {
+  margin-top: -100px
+} */
 
 }
 
