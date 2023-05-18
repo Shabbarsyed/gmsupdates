@@ -2347,4 +2347,7 @@ transform: rotate(90deg);
   }
 
 
- 
+ .business_item p{
+    margin-left: 1rem;
+    margin-right: 1rem;
+ }
