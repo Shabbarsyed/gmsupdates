@@ -88,7 +88,7 @@ Author URI: http://www.xpeedstudio.com
         font-weight: 600;
         border:1px solid;
         margin-bottom: 120px;
-        margin-top: -30px;
+      
       }
     
       .container-1 h1{
@@ -402,6 +402,7 @@ transform: rotate(90deg);
 .content-2 {
     flex-basis: 100%;
     text-align: justify;
+    margin-top: 3rem;
   }
 
   /* .content-2 h2{
@@ -458,16 +459,16 @@ transform: rotate(90deg);
   }
 
  
-  .image {
+  .image2 {
     flex-basis: 60%;
     
   }
 
-  .image img {
-    width: 80%;
+  .image2 img {
+    width: 60%;
     height: auto;
-    padding-left: 4rem;
-   
+    margin-right: 80px;
+    margin-top: -5rem;
   }
 
   .container-2 h1{
@@ -482,7 +483,6 @@ transform: rotate(90deg);
     align-items: center;
     justify-content: space-between;
     position: relative;
-    
     margin: 0 auto;
     padding: 20px 20px;
   }
@@ -672,22 +672,25 @@ transform: rotate(90deg);
 .features h2{
 color: transparent;
 }
+
 .features {
   height: 48rem;
     width:100%;
 }
 
 .image1 {
-  flex-basis: 70%;
+    
+  flex-basis: 100%;
+  
 }
 
 .image1 img {
-  width: 80%;
+  width: 60%;
   height: auto;
-  margin-top: -50px;
-  padding-left: 100px;
- 
+  margin-top: -80px;
+  margin-right: 80px
 }
+
 
 
 

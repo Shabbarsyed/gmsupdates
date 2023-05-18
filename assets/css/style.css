@@ -981,14 +981,17 @@ Featured section style
 
 .main_business{
 
+   
     
 }
 
 .business_item{
     
 }
+
 .business_item h2{
-    font-size:26px;
+    color: #1A237E;
+    font-size:3rem;
     font-weight: 800;
 }
 .business_item li{
@@ -1003,6 +1006,7 @@ Featured section style
     margin-right: 5px;
 
 }
+
 .business_item p{
     color:#333333;
     line-height: 2rem;
@@ -1029,7 +1033,7 @@ Featured section style
 .business_slid {
     box-shadow: 0px 0px 8px -1px;
     border-radius: 4px 4px 0px 0px;
-    width:70%;
+    width:80%;
     
     
 }
@@ -1040,8 +1044,9 @@ Featured section style
 }
 
 
+
 .business_img img {
-    width: 80%;
+    width: 100%;
 }
 
 .business_slid .slick-arrow{
@@ -1535,11 +1540,12 @@ transform: rotate(90deg);
   }
 
   .image1 img {
-    width: 80%;
+    width: 60%;
     height: auto;
-    margin-top: -90px;
-    padding-left: 150px;
-   
+    margin-top: -80px;
+    float: right;
+    
+    
   }
 
   .container-1 h1{
@@ -1612,12 +1618,27 @@ transform: rotate(90deg);
 
   
 
+  .image2 {
+    
+    flex-basis: 80%;
+    
+  }
+
+  .image2 img {
+    width: 60%;
+    height: auto;
+    margin-top: -20px;
+    
+    float: right;
+   
+  }
+
 
 
   .container-2 h1{
 
     margin-left: 1rem;
-    font-size: 2.2rem;
+    /* font-size: 2.2rem; */
     font-weight: 800;
     color: #E0E0E0;
   }
@@ -1628,7 +1649,7 @@ transform: rotate(90deg);
     justify-content: space-between;
     position: relative;
     margin: 0 auto;
-    padding: 60px 20px;
+    padding: 100px 20px;
   }
 
 
