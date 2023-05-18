@@ -354,17 +354,7 @@ font-size: 1.2rem;
 
 
 
-  .image {
-    flex-basis: 100%;
-    
-  }
-
-  .image img {
-    width: 80%;
-    height: auto;
-    padding-left: 4rem;
-   
-  }
+ 
 
   .container-1 h1{
     margin-left: 4.8rem;
@@ -445,7 +435,7 @@ font-size: 1.2rem;
   }
 
   .image {
-    flex-basis: 100%;
+    flex-basis: 60%;
     
   }
 
@@ -620,20 +610,47 @@ font-size: 1.2rem;
     font-size:14px;
     font-weight: 500;
 }
-.business_item .business_btn{
+.business_item .
+{
     margin-left:-10px;
 }
-.business_item .business_btn a{
+.business_item .
+ a{
     margin-left:10px;
 }
-/* .business_item .business_btn .btn-default{
+/* .business_item .
+ .btn-default{
     color:#E0E0E0;
 } */
 
 
 
+/* here we are going to arrange the main div home content to align them on center */
+
+.home{
+  background: url(../images/hero-bg.png) no-repeat scroll  center center;
+  background-size: cover;
+  position: relative;
+  padding-top: 18rem;
+  padding-bottom: 80px;
+  height: 43rem;
+  width:100%;
+}
+
+
+/* here we are going to manage the content of the 2div which is beanth the home main div  */
+
+
+.content-1 {
+  flex-basis: 70%;
+  text-align: justify;
+  margin-top : -88px  ;
+}
+
 
 }
+
+
 
 
 

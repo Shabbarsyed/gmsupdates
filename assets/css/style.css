@@ -880,9 +880,9 @@ Home Section style
     background: url(../images/hero-bg.png) no-repeat scroll  center center;
     background-size: cover;
     position: relative;
-    padding-top: 250px;
+    padding-top: 14rem;
     padding-bottom: 80px;
-    
+    height: 43rem;
     width:100%;
 }
 .main_home .home_text h2{
@@ -954,6 +954,10 @@ Home Section style
 /*
 Featured section style
 ========================*/
+.features {
+    height: 35rem;
+    width:100%;
+}
 
 .features_item .f_item_icon{
     float: left;
@@ -1442,6 +1446,7 @@ work Section style
 .content-1 {
     flex-basis: 70%;
     text-align: justify;
+    margin-top : -88px  ;
   }
 
   .content-1 h2 {
@@ -1503,19 +1508,20 @@ font-size: 1.2rem;
     align-items: center;
     justify-content: space-between;
     position: relative;
-    
     margin: 0 auto;
-    padding: 20px 20px;
+    padding: 20px 80px;
+   
   }
 
-  .image {
-    flex-basis: 100%;
+  .image1 {
+    flex-basis: 70%;
     
   }
 
-  .image img {
+  .image1 img {
     width: 100%;
     height: auto;
+    margin-top: -50px;
     padding-left: 150px;
    
   }
