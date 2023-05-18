@@ -1461,7 +1461,7 @@ work Section style
     text-align: left;
     margin-top : -70px  ;
   }
-
+/* 
   .content-1 h2 {
     font-size: 2.2rem;
     margin-bottom: 20px;
@@ -1473,9 +1473,9 @@ work Section style
     margin-left: -60px;
     
     /* Rotate from top left corner (not default) */
-    transform-origin: 0 0;
-   transform: rotate(270deg);
-  }
+    /* transform-origin: 0 0;
+   transform: rotate(270deg); */
+  /* } */ 
 
 /*   .content-1 h2::after {
     content: "";
@@ -1499,7 +1499,7 @@ transform: rotate(90deg);
   }
 
   .content-1 button {
-    
+    margin-left: 2rem;
     bottom: 35px;
     -webkit-transition: all 0.6s;
     transition: all 0.6s;
@@ -1520,11 +1520,11 @@ transform: rotate(90deg);
   .container-1 {
     
     display: flex;
-    align-items: center;
+    align-items: left;
     justify-content: space-between;
     position: relative;
     margin: 0 auto;
-    padding: 20px 80px;
+    padding: 60px 20px;
    
   }
 
@@ -1535,7 +1535,7 @@ transform: rotate(90deg);
   }
 
   .image1 img {
-    width: 100%;
+    width: 80%;
     height: auto;
     margin-top: -90px;
     padding-left: 150px;
@@ -1558,23 +1558,23 @@ transform: rotate(90deg);
 
 
 .content-2 {
-    flex-basis: 100%;
-    text-align: justify;
+    flex-basis: 70%;
+    text-align: left;
   }
 
-  .content-2 h2 {
-    font-size:  2rem;
+  /* .content-2 h2 {
+    font-size:  2.2rem;
     margin-bottom: 10px;
     position: relative;
     color: #E0E0E0;
     font-weight: 900;
     text-transform: uppercase;
     top: 330px;
-    
+     */
     /* Rotate from top left corner (not default) */
-    transform-origin: 0 0;
+    /* transform-origin: 0 0;
    transform: rotate(270deg);
-  }
+  } */
 
 /*   .content-1 h2::after {
     content: "";
@@ -1592,13 +1592,13 @@ transform: rotate(90deg);
   .content-2 ul {
     font-size: 1.2rem;
     margin-bottom: 100px;
-    margin-left: 60px;
+    margin-left: 10px;
     line-height: 1.5;
     color: #E0E0E0;
   }
 
   .content-2 button {
-    margin-left: 70px;
+    margin-left: 2rem;
     bottom: 35px;
     -webkit-transition: all 0.6s;
     transition: all 0.6s;
@@ -1615,19 +1615,19 @@ transform: rotate(90deg);
 
 
   .container-2 h1{
-    margin-left: 4.8rem;
-    font-size: 2rem;
+    margin-left: 1rem;
+    font-size: 2.2rem;
     font-weight: 800;
     color: #E0E0E0;
   }
 
   .container-2 {
-    display: flex;
-    align-items: center;
+    display: flex
+    align-items: left;
     justify-content: space-between;
     position: relative;
     margin: 0 auto;
-    padding: 20px 20px;
+    padding: 60px 20px;
   }
 
 
