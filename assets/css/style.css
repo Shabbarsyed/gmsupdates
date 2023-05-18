@@ -380,7 +380,7 @@ Button
     color: #fff;
     background-color: #1A237E;
     border:1px solid;
-    border-color: #1A237E;
+    border-color: #c0c1ca;
 
 }
 .btn-primary:hover{
@@ -990,6 +990,7 @@ Featured section style
     line-height: 2rem;
 }
 .business_item li i{
+    
     font-size:12px;
     margin-right: 5px;
 
