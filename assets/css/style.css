@@ -673,15 +673,17 @@ textarea::-ms-input-placeholder{
 .head_title{
     padding-bottom: 2.143rem;
     overflow: hidden;
+    color: #E0E0E0;
 }
 .head_title h2{
     font-weight: 700;
-    font-size:2.250rem;
+    font-size: 3rem;
+    color: #E0E0E0;
 }
 .head_title h5{
     font-weight: 400;
     font-size:1.125rem;
-    color:#999999;
+    color: #E0E0E0;
 }
 
 /*End off pridifain css*/
@@ -1146,6 +1148,12 @@ work Section style
 
 .main_product .port_img img{
     width:60%;
+    
+}
+
+.main_product .port_img img:hover{
+    width:70%;
+    transition-duration: 0.5s;
     
 }
 .main_product .port_overlay{
@@ -1779,7 +1787,12 @@ transform: rotate(90deg);
   .port_caption {
     text-align: center;
   }
-
+  .port_caption h5{
+    color: #E0E0E0  ;
+  }
+  .port_caption h6{
+    color: #E0E0E0  ;
+  }
 
 
 
@@ -1788,11 +1801,14 @@ transform: rotate(90deg);
 /* ---------------------------------------------- */
 /* 
 
-
+/* start of product area */
 
 
 /* //end product section */
-
+.text-uppercase {
+    font-size: 3rem;
+    color:#1A237E ;
+}
 
 .container-end h1{
     margin-left: 4.3rem;
@@ -2289,3 +2305,8 @@ transform: rotate(90deg);
     margin-top: -500px
   } */
  
+  .container-socail {
+    width: 90%;
+    padding-left: 150px;
+    
+  }
