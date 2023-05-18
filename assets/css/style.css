@@ -978,11 +978,15 @@ Featured section style
 }
 
 /*Business Section*/
+
 .main_business{
 
+    
 }
 
-.business_item{}
+.business_item{
+    
+}
 .business_item h2{
     font-size:26px;
     font-weight: 800;
@@ -1020,15 +1024,24 @@ Featured section style
     height: 40px;
     border-radius: 4px 4px 0px 0px;
     width:100%;
+    
 }
 .business_slid {
     box-shadow: 0px 0px 8px -1px;
     border-radius: 4px 4px 0px 0px;
+    width:70%;
+    
+    
 }
 
 .business_slid .business_items{
     background-color: #fff;
     margin: 0;
+}
+
+
+.business_img img {
+    width: 80%;
 }
 
 .business_slid .slick-arrow{
