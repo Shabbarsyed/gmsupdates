@@ -397,11 +397,16 @@ transform: rotate(90deg);
     text-align: justify;
   }
 
+  /* .content-2 h2{
+    
+    
+  } */
   .content-2 h2 {
+
     font-size: 22px;
     margin-bottom: 10px;
     position: relative;
-    color: #E0E0E0;
+    color: transparent;
     font-weight: 900;
     text-transform: uppercase;
     top: 330px;
