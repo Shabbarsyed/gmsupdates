@@ -314,7 +314,7 @@ transform: rotate(90deg);
 
 .content-1 {
     flex-basis: 100%;
-    text-align: left;
+   
   }
 
   .content-1 h2 {
@@ -335,7 +335,7 @@ transform: rotate(90deg);
 
   .content-1 button {
     
-    margin-left: 70px;
+    margin-left: 90px;
     bottom: 35px;
     -webkit-transition: all 0.6s;
     transition: all 0.6s;
@@ -360,9 +360,10 @@ transform: rotate(90deg);
   }*/
 
   .content-1 ul {
+    text-align: center;
     font-size: 0.8rem;
     margin-bottom: 100px;
-    margin-left: 60px;
+    /* margin-left: 90px; */
     line-height: 1.5;
     color: black;
   }
@@ -372,7 +373,7 @@ transform: rotate(90deg);
  
 
   .container-1 h1{
-    margin-left: 4.8rem;
+    margin-left: 7rem;
     font-size: 2rem;
     font-weight: 800;
     color: #1A237E;
@@ -430,15 +431,16 @@ transform: rotate(90deg);
   }*/
 
   .content-2 ul {
+    text-align: center;
     font-size: 0.8rem;
     margin-bottom: 100px;
-    margin-left: 60px;
+    margin-left: 0px;
     line-height: 1.5;
     color: #E0E0E0;
   }
 
   .content-2 button {
-    margin-left: 70px;
+    margin-left: 90px;
     bottom: 35px;
     -webkit-transition: all 0.6s;
     transition: all 0.6s;
@@ -466,7 +468,7 @@ transform: rotate(90deg);
   }
 
   .container-2 h1{
-    margin-left: 4.8rem;
+    margin-left: 7rem;
     font-size: 2rem;
     font-weight: 800;
     color: #E0E0E0;
