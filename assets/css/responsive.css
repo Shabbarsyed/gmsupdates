@@ -647,6 +647,26 @@ font-size: 1.2rem;
   margin-top : -88px  ;
 }
 
+.features h2{
+color: transparent;
+}
+.features {
+  height: 48rem;
+    width:100%;
+}
+
+.image1 {
+  flex-basis: 70%;
+}
+
+.image1 img {
+  width: 80%;
+  height: auto;
+  margin-top: -50px;
+  padding-left: 100px;
+ 
+}
+
 
 
 
@@ -668,6 +688,10 @@ font-size: 1.2rem;
   /* padding-left: 20px; */
   align-items: center;
 }
+
+
+
+
 
 }
 

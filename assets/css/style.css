@@ -391,9 +391,9 @@ Button
 
 .btn-default{
     color: #000;
-    background-color: transparent;
+    background-color: #E0E0E0;
     border:1px solid;
-    border-color: #b6b6b6;
+    border-color: 424242;
 }
 .btn-default:hover{
     color: #fff;
@@ -1500,21 +1500,20 @@ transform: rotate(90deg);
   .content-1 button {
     margin-left: 70px;
     bottom: 35px;
-height: 60px;
-width: 200px;
-position: relative;
-color: #1A237E;
-border-radius: 12px;
-border-color: #1A237E;
-background-color: transparent;
-font-size: 1.2rem;
+    -webkit-transition: all 0.6s;
+    transition: all 0.6s;
+    font-size:14px;
+    font-weight: 600;
+    border:1px solid;
+    margin-bottom: 120px;
+    margin-top: -30px;
   }
 
-  .content-1 button:hover {
+  /* .content-1 button:hover {
     border-color:#1A237E ;
     color: #1A237E;
     margin-left: 77px;
-  }
+  } */
 
   .container-1 {
     display: flex;
@@ -1527,14 +1526,15 @@ font-size: 1.2rem;
   }
 
   .image1 {
-    flex-basis: 70%;
+    
+    flex-basis: 80%;
     
   }
 
   .image1 img {
     width: 100%;
     height: auto;
-    margin-top: -50px;
+    margin-top: -90px;
     padding-left: 150px;
    
   }
