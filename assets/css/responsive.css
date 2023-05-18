@@ -314,7 +314,7 @@ transform: rotate(90deg);
 
 .content-1 {
     flex-basis: 100%;
-    text-align: center;
+    text-align: left;
   }
 
   .content-1 h2 {
@@ -335,7 +335,7 @@ transform: rotate(90deg);
 
   .content-1 button {
     
-    margin-left: 90px;
+    margin-left: 70px;
     bottom: 35px;
     -webkit-transition: all 0.6s;
     transition: all 0.6s;
@@ -360,11 +360,9 @@ transform: rotate(90deg);
   }*/
 
   .content-1 ul {
-    align-content: center;
-    text-align: center;
     font-size: 0.8rem;
     margin-bottom: 100px;
-    
+    margin-left: 60px;
     line-height: 1.5;
     color: black;
   }
@@ -374,7 +372,7 @@ transform: rotate(90deg);
  
 
   .container-1 h1{
-    margin-left: 7rem;
+    margin-left: 4.8rem;
     font-size: 2rem;
     font-weight: 800;
     color: #1A237E;
