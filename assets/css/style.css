@@ -1459,7 +1459,7 @@ work Section style
 .content-1 {
     flex-basis: 70%;
     text-align: left;
-    margin-top : -88px  ;
+    margin-top : -70px  ;
   }
 
   .content-1 h2 {
@@ -1518,6 +1518,7 @@ transform: rotate(90deg);
 
 
   .container-1 {
+    
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -1608,9 +1609,7 @@ transform: rotate(90deg);
 
   }
 
-  .content-2 button:hover {
-    border-color: #E0E0E0;
-  }
+  
 
 
 

@@ -317,7 +317,9 @@ transform: rotate(90deg);
 
 .content-1 {
     flex-basis: 100%;
-   
+    text-align: center;
+    /* align-items: center;
+    align-content: center; */
   }
 
   /* .content-1 h2 {
@@ -339,7 +341,8 @@ transform: rotate(90deg);
 
   .content-1 button {
     text-align: center;
-    margin-left: 90px;
+    align-items: center;
+    margin-left: 6.7rem;
     bottom: 35px;
     -webkit-transition: all 0.6s;
     transition: all 0.6s;
@@ -385,8 +388,7 @@ transform: rotate(90deg);
 
   .container-1 {
     display: contents;
-    align-items: center;
-    justify-content: space-between;
+    align-items: center auto;
     position: relative;
     
     margin: 0 auto;
@@ -455,10 +457,7 @@ transform: rotate(90deg);
     margin-top: -30px;
   }
 
-  .content-2 button:hover {
-    margin-left: 77px;
-  }
-
+ 
   .image {
     flex-basis: 60%;
     
