@@ -1415,20 +1415,7 @@ work Section style
     font-weight: 900px;
   }
 
-  @media (min-width: 1080px) {
-    .div1 h2{
-        font-size: 70px;
-        color: #E0E0E0;
-        font-weight: 900px;
-      }
-      .div1 p{
-        color: #E0E0E0;
-        margin-top: 40px;
-        font-size: 20px;
-      }
-
-  }
- 
+  
   
   /* Clear floats after the columns */
   .div1row:after {
@@ -1944,6 +1931,7 @@ transform: rotate(90deg);
     font-size: 25px;
     font-weight: 600;
     color: #E0E0E0 ;
+    background-color: transparent;
 }
 .our-team .content .post{
     margin: 0 0 25px;
@@ -2347,7 +2335,4 @@ transform: rotate(90deg);
   }
 
 
- .business_item p{
-    margin-left: 1rem;
-    margin-right: 1rem;
- }
+ 

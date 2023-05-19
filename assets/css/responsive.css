@@ -18,6 +18,33 @@ Author URI: http://www.xpeedstudio.com
 
 
 
+/* ================================================= */
+
+/* =========================================================== */
+
+@media (min-width: 1080px) {
+  .div1 h2{
+      font-size: 3em;
+      color: #E0E0E0;
+      font-weight: 900px;
+    }
+    .div1 p{
+      color: #E0E0E0;
+      margin-top: 30px;
+      font-size: 20px;
+    }
+
+}
+
+
+
+
+/* ============================================== */
+/* ==================================================================== */
+
+
+
+
 /* Portrait tablets and small desktops */
 /*@media (max-width: 992px) {
 
@@ -309,7 +336,13 @@ transform: rotate(90deg);
         clear: both;
       }
 
-     
+/* ==================================================== */
+      /* padding between the text on div3 */
+/* ====================================================== */
+      .business_item p{
+        margin-left: 1rem;
+        margin-right: 1rem;
+     }
     
       
 /* --------------------------------- */
