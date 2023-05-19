@@ -171,6 +171,10 @@ Author URI: http://www.xpeedstudio.com
   .content-2 h1{
     font-size: 2em;
       }
+
+      .head_title h2{
+        font-size: 2em;
+      }
   .content-2 h2 {
     font-size:  1.8rem;
     margin-bottom: 0px;
