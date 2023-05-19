@@ -521,6 +521,12 @@ transform: rotate(90deg);
 
 
 
+.socialplugin {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  
+}
 
   .container-1 h1 {
     margin-left: 7rem;
@@ -902,7 +908,7 @@ text-align: center;
 /* social media feed */
 .container-socail {
   width: 90%;
-  padding-left: 40px;
+  /* padding-left: 40px; */
 
 }
 
