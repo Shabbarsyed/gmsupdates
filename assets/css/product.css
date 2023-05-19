@@ -90,7 +90,7 @@ width: 100%;
 
     transform: translateY(-100px);
 
-    box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+    box-shadow: 0 20px 40px rgb(26, 35, 126,0.4);
 
 }
 
@@ -130,6 +130,8 @@ width: 100%;
 
     text-align: center;
 
+    margin-bottom: 20px;
+
     color: #414141;
 
 }
@@ -140,11 +142,13 @@ width: 100%;
 
     padding: 0;
 
-    font-size: 24px;
+    font-size: 1.6em;
+
+    font-weight: 800;
 
     text-align: center;
 
-    color: #414141;
+    color: #1A237E;
 
 }
 

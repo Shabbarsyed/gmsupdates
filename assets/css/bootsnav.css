@@ -509,10 +509,14 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
         width: 100%;
         padding-left: 30px;
         padding-right: 30px;
+        
     }
+
+    
 }
 
 @media (min-width: 1024px) {
+    
     /* General Navbar
     =================================*/
     nav.navbar.bootsnav ul.nav .dropdown-menu .dropdown-menu{

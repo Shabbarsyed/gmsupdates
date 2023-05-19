@@ -848,6 +848,7 @@ Nav Menu style
 }
 .navbar-brand > img {
     display: block;
+    align-items: center;
     width: 60%;
 }
 
@@ -2345,6 +2346,7 @@ transform: rotate(90deg);
     align-items: center;
     align-content: center;
     width: 100%;
+    
     /* padding-left: 150px; */
   }
   .socialplugin {
@@ -2418,4 +2420,3 @@ transform: rotate(90deg);
     text-align: center;
   }
   
- 
