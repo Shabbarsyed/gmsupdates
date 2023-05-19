@@ -810,14 +810,12 @@ transform: rotate(90deg);
 }
 
 .features {
-  height: 48rem;
+  height: 45rem;
   width: 100%;
 }
 
 .image1 {
-
   flex-basis: 100%;
-
 }
 
 .image1 img {
