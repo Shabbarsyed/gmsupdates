@@ -302,10 +302,6 @@ transform: rotate(90deg);
     width: 60%;
   }
 
-
-
-
-
 }
 
 
@@ -524,7 +520,7 @@ transform: rotate(90deg);
   .content-2 {
     flex-basis: 100%;
     text-align: justify;
-    margin-top: 3rem;
+    margin-top: 2rem;
   }
 
   /* .content-2 h2{
@@ -562,13 +558,13 @@ transform: rotate(90deg);
 
   /* .div2row {
     
-    /* margin-top: 50px; */
+    margin-top: 50px;
 
-}
+} */
 
-*/ .content-2 ul {
+.content-2 ul {
   text-align: center;
-  font-size: 0.8rem;
+  font-size:0.8em;
   margin-bottom: 100px;
   margin-left: 0px;
   line-height: 1.5;
@@ -610,11 +606,12 @@ transform: rotate(90deg);
 
 .container-2 {
   display: contents;
-  align-items: center;
-  justify-content: space-between;
+  align-items: center auto;
   position: relative;
+  
   margin: 0 auto;
   padding: 20px 20px;
+  
 }
 
 

@@ -1594,11 +1594,11 @@ transform: rotate(90deg);
   }*/
 
   .content-2 ul {
-    font-size: 1.2rem;
+    font-size: 1.2em;
     margin-bottom: 100px;
     margin-left: 10px;
     line-height: 1.5;
-    color: #E0E0E0;
+    color: #E0E0E0 ;
   }
 
  
@@ -1628,7 +1628,6 @@ transform: rotate(90deg);
     width: 60%;
     height: auto;
     margin-top: -20px;
-    
     float: right;
    
   }
