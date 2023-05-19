@@ -31,8 +31,31 @@ Author URI: http://www.xpeedstudio.com
     .div1 p{
       color: #E0E0E0;
       margin-top: 30px;
-      font-size: 20px;
+      font-size: 14px;
     }
+
+    .content-1 h1{
+      font-size: 2.5em;
+        }
+        .content-1 ul li{
+         font-size: 14px; 
+        }
+      
+        .content-2 h1{
+          font-size: 2.5em;
+            }
+            .content-2 ul li{
+              font-size: 14px; 
+             }
+
+            .business_item h2{
+              font-size: 2.5em;
+            }
+
+            .head_title h2{
+              font-size: 2.5em;
+            }
+
 
 }
 
@@ -124,9 +147,9 @@ Author URI: http://www.xpeedstudio.com
     
       .container-1 h1{
         margin-left: 5rem;
-        font-weight: 800;
+        font-weight: 700;
         word-spacing: normal;
-        font-size: 2.1rem;
+        font-size: 3em;
         color: #1A237E;
       }
 
@@ -339,10 +362,25 @@ transform: rotate(90deg);
       }
       
       /* Clear floats after the columns */
+
+      /* home container editing for mobile view */
       .div1row:after {
         content: "";
         display: table;
         clear: both;
+      }
+
+      
+
+      .div1{
+        
+        display: contents;
+        text-align: center;
+        align-items: center;
+      }
+
+      .div1 {
+
       }
 
 /* ==================================================== */
@@ -515,11 +553,12 @@ transform: rotate(90deg);
 
   .container-2 h1{
     margin-left: 7rem;
-    font-size: 2rem;
+    
     font-weight: 800;
     color: #E0E0E0;
   }
 
+  
   .container-2 {
     display: contents;
     align-items: center;

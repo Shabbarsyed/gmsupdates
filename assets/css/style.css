@@ -224,7 +224,7 @@ h6 {
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 3em;
     line-height: 4rem;
 }
 h2 {
@@ -1600,6 +1600,8 @@ transform: rotate(90deg);
     line-height: 1.5;
     color: #E0E0E0;
   }
+
+ 
 
   .content-2 button {
     margin-left: 2rem;
