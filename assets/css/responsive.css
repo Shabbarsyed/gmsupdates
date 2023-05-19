@@ -512,7 +512,7 @@ transform: rotate(90deg);
 }
 
 .socialfeed h1 {
-  font-weight: 700;
+  font-weight: 800;
   word-spacing: normal;
   font-size: 2em;
   color: #1A237E;
@@ -790,7 +790,7 @@ text-align: center;
 }
 
 .business_item h2 {
-  font-size: 26px;
+  font-size: 2em;
   font-weight: 800;
 
 }
