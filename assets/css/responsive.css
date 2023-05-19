@@ -103,6 +103,10 @@ Author URI: http://www.xpeedstudio.com
         clear: both;
       }
       
+      .div1 h2{
+        font-weight: 900px;
+        font-size: 2em;
+      }
       
 
       /* 2nd div work */
@@ -127,7 +131,7 @@ Author URI: http://www.xpeedstudio.com
       }
 
   .content-1 h2 {
-    font-size:  1.8rem;
+    font-size:  3em;
     margin-bottom: 0px;
     position: relative;
     color: #8d8b8b;
@@ -310,6 +314,11 @@ transform: rotate(90deg);
         align-content: center;
     }
 
+
+    .div1 h2{
+      font-weight: 900px;
+      font-size: 2em;
+    }
 
     .lastdiv {
       margin-top: -700px;
