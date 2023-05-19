@@ -961,6 +961,11 @@ Featured section style
     width:100%;
 }
 
+.features1 {
+    height: 35rem;
+    width:100%;
+}
+
 .features_item .f_item_icon{
     float: left;
     width:15%;

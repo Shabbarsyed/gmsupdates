@@ -864,6 +864,16 @@ text-align: center;
   width: 100%;
 }
 
+
+.features1 h2 {
+  color: transparent;
+}
+
+.features1 {
+  height: 39rem;
+  width: 100%;
+}
+
 .image1 {
   flex-basis: 100%;
 }
