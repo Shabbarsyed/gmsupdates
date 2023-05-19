@@ -124,9 +124,8 @@ Author URI: http://www.xpeedstudio.com
   }
 
   .div2 {
-    float: right;
+    align-items: center;
     width: 50%;
-
     height: 100%;
     /* Should be removed. Only for demonstration */
   }
@@ -357,6 +356,10 @@ transform: rotate(90deg);
   .main_product .carousel-control {
     display: none;
   }
+  
+  .main_product{
+    margin-top: -50px;
+  }
 
   .logo {
     margin-top: -7px;
@@ -370,7 +373,7 @@ transform: rotate(90deg);
   }
 
   .lastdiv {
-    margin-top: -700px;
+    margin-top: -660px;
   }
 
 
@@ -468,7 +471,7 @@ transform: rotate(90deg);
     font-weight: 600;
     border: 1px solid;
     margin-bottom: 120px;
-    margin-top: -30px;
+    margin-top: -60px;
   }
 
   /*   .content-1 h2::after {
@@ -493,6 +496,28 @@ transform: rotate(90deg);
     color: black;
   }
 
+
+ 
+  
+/* // Social Fedds */
+
+.socialfeed{
+  margin-top: -30px;
+  background-color: transparent;
+  background: url(../images/hero-bg.png);
+  background-size: cover;
+  height: auto;
+  text-align: center;
+
+}
+
+.socialfeed h1 {
+  font-weight: 700;
+  word-spacing: normal;
+  font-size: 2em;
+  color: #1A237E;
+  text-align: center;
+}
 
 
 
@@ -580,20 +605,23 @@ transform: rotate(90deg);
   font-weight: 600;
   border: 1px solid;
   margin-bottom: 120px;
-  margin-top: -30px;
+  margin-top: -60px;
 }
 
 
 .image2 {
-  flex-basis: 60%;
-
+  margin-top: -40px;
+  align-items: center;
+  width: 70%;
+  height: 100%;
+  
 }
 
 .image2 img {
   width: 60%;
-  height: auto;
-  margin-right: 80px;
-  margin-top: -5rem;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 .container-2 h1 {
@@ -647,6 +675,22 @@ transform: rotate(90deg);
 .div3 {
   background-image: url('assets/images/images.jpg');
   background-color: #E0E0E0;
+  
+}
+.space1 {
+  margin-top: 40px;
+  background-color: transparent;
+  background: url(../images/hero-bg.png);
+  background-size: cover;
+  height: auto;
+  
+}
+.space1 h1 {
+  font-weight: 700;
+  word-spacing: normal;
+  font-size: 2em;
+  color: #1A237E;
+text-align: center;
 }
 
 .container-section4 img {
@@ -791,7 +835,7 @@ transform: rotate(90deg);
   position: relative;
   padding-top: 18rem;
   padding-bottom: 80px;
-  height: 50rem;
+  height: 52rem;
   width: 100%;
 }
 
@@ -810,7 +854,7 @@ transform: rotate(90deg);
 }
 
 .features {
-  height: 45rem;
+  height: 42rem;
   width: 100%;
 }
 
@@ -850,9 +894,9 @@ transform: rotate(90deg);
 
 
 
-/* .business {
-  margin-top: -100px
-} */
+.business {
+  margin-top: -80px
+}
 
 
 /* social media feed */
@@ -898,7 +942,6 @@ transform: rotate(90deg);
   html {
     font-size: 60.5%;
   }
-
 
 
 
