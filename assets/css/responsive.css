@@ -254,20 +254,6 @@ Author URI: http://www.xpeedstudio.com
   }
 
 
-
-  /*   .content-1 h2::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -5px;
-  width: 200px;
-  height: 3px;
-  background-color: #1E9FBF;
-   transform-origin: 0 0;
-transform: rotate(90deg);
-
-}*/
-
   .content-end ul {
     font-size: 1.2rem;
     margin-bottom: 100px;
@@ -402,14 +388,6 @@ transform: rotate(90deg);
     /* Should be removed. Only for demonstration */
   }
 
-  /* Clear floats after the columns */
-
-  /* home container editing for mobile view */
-  /* .div1row:after {
-        content: "";
-        display: table;
-        clear: both;
-      } */
 
   .hello_slid {
     margin-top: -10px;
@@ -444,23 +422,6 @@ transform: rotate(90deg);
     align-content: center; */
   }
 
-  /* .content-1 h2 {
-    text-align: center;
-    font-size:  22px;
-    margin-bottom: 10px;
-    position: relative;
-    color: #8d8b8b;
-    font-weight: 900;
-    text-transform: uppercase;
-    top: 330px;
-    
-    /* Rotate from top left corner (not default) */
-  /* transform-origin: 0 0;
-   transform: rotate(270deg);
-  }  */
-
-
-
   .content-1 button {
 
     margin-left: 8rem;
@@ -473,19 +434,6 @@ transform: rotate(90deg);
     margin-bottom: 120px;
     margin-top: -60px;
   }
-
-  /*   .content-1 h2::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: -5px;
-    width: 200px;
-    height: 3px;
-    background-color: #1E9FBF;
-     transform-origin: 0 0;
-transform: rotate(90deg);
-
-  }*/
 
   .content-1 ul {
     text-align: center;
@@ -572,26 +520,6 @@ transform: rotate(90deg);
     transform-origin: 0 0;
     transform: rotate(270deg);
   }
-
-  /*   .content-1 h2::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: -5px;
-    width: 200px;
-    height: 3px;
-    background-color: #1E9FBF;
-     transform-origin: 0 0;
-transform: rotate(90deg);
-
-  }*/
-
-
-  /* .div2row {
-    
-    margin-top: 50px;
-
-} */
 
 .content-2 ul {
   text-align: center;

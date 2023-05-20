@@ -509,7 +509,6 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
         width: 100%;
         padding-left: 30px;
         padding-right: 30px;
-        
     }
 
     
@@ -697,7 +696,7 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
     }
 
     nav.navbar.bootsnav.navbar-fixed .logo-display{
-        display: none;,
+        display: none;
     }
 
     nav.navbar.bootsnav.navbar-fixed .logo-scrolled{
