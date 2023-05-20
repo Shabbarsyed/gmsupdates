@@ -8,10 +8,6 @@ Author URI: http://www.xpeedstudio.com
   body {
     font-size: 1rem;
   }
-
-
-
-
 }
 
 
@@ -28,6 +24,7 @@ Author URI: http://www.xpeedstudio.com
   }
 
   .div1 p {
+    
     color: #E0E0E0;
     margin-top: 30px;
     font-size: 14px;
@@ -847,7 +844,6 @@ text-align: center;
 .container-socail {
   width: 90%;
   /* padding-left: 40px; */
-
 }
 
 }

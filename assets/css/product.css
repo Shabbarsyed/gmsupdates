@@ -1,14 +1,13 @@
-
-
-.containercard{
+.containercard
+{
 display: flex;
 justify-content: center;
 width: 100%;
-
 }
 
 
-.card {
+.card 
+{
     padding-right: 30px;
 }
 
