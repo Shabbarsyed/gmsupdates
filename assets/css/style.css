@@ -838,7 +838,6 @@ Nav Menu style
 
 .navbar-top {
     background-color:#424242  ;
-    
 }
 
 
@@ -847,9 +846,10 @@ Nav Menu style
     padding: 1.2rem 0px;
 }
 .navbar-brand > img {
+    
     display: block;
     align-items: center;
-    width: 60%;
+    width: 70%;
 }
 
 .navbar-callus li a{
@@ -859,6 +859,7 @@ Nav Menu style
     display: inline-block;
 }
 .navbar-callus li a i{
+    
     font-size:13px;
     color: #E0E0E0 ;
     margin-right: 5px;
