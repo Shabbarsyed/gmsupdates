@@ -26,6 +26,15 @@ Author URI: http://xpeedstudio.com
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+
+   *,
+*::after,
+*::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
 html,
 body {
     font-size: 14px;
@@ -37,6 +46,8 @@ body {
     font-weight: 400;
     width:100%;
     font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+
 }
 
 /*------------------------------------------------------------------*/
@@ -961,8 +972,6 @@ Home Section style
 .productline {
     padding-top: 20px;
     padding-bottom: 80px;
-
-
   }
   
   .principles{
@@ -989,6 +998,7 @@ Home Section style
     padding-bottom: 20px;
   
   }
+  
 
   
   
@@ -2419,5 +2429,42 @@ transform: rotate(90deg);
     font-size: 2em;
     color: #1A237E;
     text-align: center;
+  }
+  
+/* ======================================================= */
+/* BANNER */
+/* ============================================================ */
+
+
+.banner {
+    background: url(../images/bg.png) no-repeat scroll  center center;
+    background-size: cover;
+    background-color: transparent;
+    height: auto;
+  }
+  
+  .banner__content {
+    padding: 16px;
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+  }
+  
+  .banner__text {
+    flex-grow: 1;
+    line-height: 1.4;
+    font-family: "Quicksand", sans-serif;
+  }
+  
+  .banner__close {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .banner__text,
+  .banner__close > span {
+    color: #ffffff;
   }
   

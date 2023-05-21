@@ -573,6 +573,13 @@
         $(".navbar-collapse").removeClass("on");
         $(".navbar-collapse").removeClass("bounceIn");      
     });
+
+
+    document.querySelector(".banner__close").addEventListener("click", function () {
+        this.closest(".banner").style.display = "none";
+      });
+      
+    
     
 }(jQuery));
 
