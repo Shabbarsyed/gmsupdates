@@ -457,3 +457,24 @@ html { font-size: 62.5%; } */
   font-size: 1rem;
   color: rgba(255, 255, 255, 0.7);
 }
+
+
+
+@media (max-width: 768px) {
+
+  .card-area {
+    align-items: center;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    height: 100%;
+    justify-content: space-evenly;
+    padding: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: -3;
+    margin-bottom: 30px;
+    
+  }
+
+}
