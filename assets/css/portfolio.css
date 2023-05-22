@@ -384,6 +384,14 @@
       background-color: #fff; } }
   
   @media (max-width: 767px) {
+    .row .col-md-2 img{
+      align-items: center;
+      justify-content: center;
+      margin-left: auto;
+      margin-right: auto;
+      
+    }
+
     .boxed-page {
       margin: 4rem 15px; }
     .not-on-top #gtco-header-navbar {
@@ -399,7 +407,8 @@
     .grid-item {
       width: 100%; }
     .card-deck {
-      flex-direction: column; } }
+      flex-direction: column; }
+     }
   
 
 
@@ -441,4 +450,10 @@
       }
       .my-4 i{
         color: #424242;
+      }
+
+      
+      .section-sub-title{
+        color: #424242;
+        text-align: center;
       }
