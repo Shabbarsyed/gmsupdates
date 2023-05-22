@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* *, html,body{
+	padding:0px;
+	margin:0px;
+	box-sizing:border-box;
+	perspective:800px; */
+/* } */
+/* body{
+	background-color:#F0F0F0;
+	width:100%;
+	min-height:100vh;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+} */
+
+.upertimeline {
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.timeline{
+	width:100%;
+	background-color:#FFFFFF;
+	color:#fff;
+	padding:100px;
+	/* box-shadow:0px 0px 10px rgba(0,0,0,.5); */
+  font-family:'Poppins', sans-serif;
+
+}
+.timeline ul{
+	list-style-type:none;
+	border-left:2px solid #094a68;
+	padding:10px 5px;
+}
+.timeline ul li{
+	padding:20px 20px;
+	position:relative;
+	cursor:pointer;
+	transition:.5s;
+}
+.timeline ul li span{
+	display:inline-block;
+	background-color:#1A237E;
+	border-radius:25px;
+	padding:2px 5px;
+	font-size:15px;
+	text-align:center;
+}
+.timeline ul li .content h3{
+	color:#1A237E;
+	font-size:1.5em;
+	padding-top:5px;
+}
+.timeline ul li .content p{
+	padding:5px 0px 15px 0px;
+	font-size:15px;
+  color: #424242;
+}
+.timeline ul li:before{
+	position:absolute;
+	content:'';
+	width:10px;
+	height:10px;
+	background-color:#1A237E;
+	border-radius:50%;
+	left:-11px;
+	top:28px;
+	transition:.5s;
+}
+.timeline ul li:hover{
+	background-color:#F0F0F0;
+}
+.timeline ul li:hover:before{
+	background-color: #ebe0e0;
+	box-shadow:0px 0px 10px 2px #E0E0E0;
+}
+@media (max-width:769px){
+	.timeline{
+		width:100%;
+		padding:30px 5px 30px 10px;
+	}
+	.timeline ul li .content h3{
+		color:#1A237E;
+		font-size:15px;
+	}
+    .timeline ul li .content p{
+        padding:5px 0px 15px 0px;
+        font-size:10px;
+      color: #424242;
+    }
+    .timeline ul li .content img {
+        width: 40%;
+        border-radius: 20px 0px 20px 0px ;
+        margin-top: -10px;
+    }
+    .eventph h1 {
+       
+        color: #1A237E;
+        font-size: 1.5rem;
+        font-weight: 800;
+        padding-top: 30px;
+    }
+
+}
+
+
+
+.timeline .content img {
+    width: 40%;
+    border-radius: 50px 0px 50px 0px ;
+    margin-top: -10px;
+    
+}
+
+
+.eventph h1 {
+    width: 100%;
+    color: #1A237E;
+    font-size: 2rem;
+    font-weight: 800;
+    padding-top: 30px;
+}
+
+.eventph p {
+    color: #424242;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+
+.Events {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+
+
+.eventph {
+    justify-content: center;
+    text-align: center;
+    margin-top: -20px;
+    /* background: url(../images/hero-bg.png) no-repeat scroll center center;
+    background-size: cover; */
+    margin-bottom: 30px;
+
+}
