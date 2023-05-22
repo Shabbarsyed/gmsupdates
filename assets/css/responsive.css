@@ -17,6 +17,18 @@ Author URI: http://www.xpeedstudio.com
 /* =========================================================== */
 
 @media (min-width: 1080px) {
+
+  .product {
+    height: fit-content;
+    background-color: #424242 ;
+    height: 450px;
+}
+
+.main_product .head_title {
+    margin-top: -70px;
+    align-items: center;
+}
+
   .div1 h2 {
     font-size: 3em;
     color: #E0E0E0;
