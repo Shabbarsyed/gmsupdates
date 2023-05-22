@@ -141,7 +141,7 @@ function animateValue(obj, start, end, duration) {
   }
   
   const obj = document.getElementById("portfoliovalue");
-  animateValue(obj, 0, 14, 2000);
+  animateValue(obj, 0, 14, 5000);
   
 
   function animateValue(obj1, start, end, duration) {
@@ -157,7 +157,7 @@ function animateValue(obj, start, end, duration) {
     window.requestAnimationFrame(step);
   }
   const obj1 = document.getElementById("projects");
-  animateValue(obj1, 0, 32, 2000);
+  animateValue(obj1, 0, 32, 5000);
 
 
   function animateValue(obj2, start, end, duration) {
@@ -174,7 +174,7 @@ function animateValue(obj, start, end, duration) {
   }
   
   const obj2 = document.getElementById("pfeedback");
-  animateValue(obj2, 0, 38, 2000);
+  animateValue(obj2, 0, 38, 5000);
 
 
   function animateValue(obj3, start, end, duration) {
@@ -191,4 +191,4 @@ function animateValue(obj, start, end, duration) {
   }
   
   const obj3 = document.getElementById("weblaunched");
-  animateValue(obj3, 0, 29, 1000);
+  animateValue(obj3, 0, 29, 5000);

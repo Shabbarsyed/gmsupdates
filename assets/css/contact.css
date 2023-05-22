@@ -224,6 +224,18 @@
 	min-height: 75px;
   }
   
+  .responsive-cell-block input{
+	color: #424242;
+	
+  }
+
+  .responsive-cell-block {
+	color: #1A237E;
+  }
+
+  .responsive-cell-block textarea {
+	color: #424242;
+  }
   .contact_us_8 .container-block {
 	min-height: 75px;
 	height: fit-content;
