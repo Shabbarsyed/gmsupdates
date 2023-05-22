@@ -1,123 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-/* *, html,body{
-	padding:0px;
-	margin:0px;
-	box-sizing:border-box;
-	perspective:800px; */
-/* } */
-/* body{
-	background-color:#F0F0F0;
-	width:100%;
-	min-height:100vh;
-	display:flex;
-	justify-content:center;
-	align-items:center;
-} */
-
-.upertimeline {
-    margin-top: -50px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.timeline{
-	width:100%;
-	background-color:#FFFFFF;
-	color:#fff;
-	padding:100px;
-	/* box-shadow:0px 0px 10px rgba(0,0,0,.5); */
-  font-family:'Poppins', sans-serif;
-
-}
-.timeline ul{
-	list-style-type:none;
-	border-left:2px solid #094a68;
-	padding:10px 5px;
-}
-.timeline ul li{
-	padding:20px 20px;
-	position:relative;
-	cursor:pointer;
-	transition:.5s;
-}
-.timeline ul li span{
-	display:inline-block;
-	background-color:#223666;
-	border-radius:25px;
-	padding:2px 5px;
-	font-size:15px;
-	text-align:center;
-}
-.timeline ul li .content h3{
-	color:#223666;
-	font-size:1.5em;
-	padding-top:5px;
-}
-.timeline ul li .content p{
-	padding:5px 0px 15px 0px;
-	font-size:15px;
-  color: #424242;
-}
-.timeline ul li:before{
-	position:absolute;
-	content:'';
-	width:10px;
-	height:10px;
-	background-color:#223666;
-	border-radius:50%;
-	left:-11px;
-	top:28px;
-	transition:.5s;
-}
-.timeline ul li:hover{
-	background-color:#F0F0F0;
-}
-.timeline ul li:hover:before{
-	background-color: #ebe0e0;
-	box-shadow:0px 0px 10px 2px #E0E0E0;
-}
-@media (max-width:769px){
-	.timeline{
-        margin-left: auto;
-        margin-right: auto;
-		width:80%;
-		padding:30px 5px 30px 10px;
-	}
-	.timeline ul li .content h3{
-		color:#223666;
-		font-size:15px;
-	}
-    .timeline ul li .content p{
-        padding:5px 0px 15px 0px;
-        font-size:10px;
-      color: #424242;
-    }
-    .timeline ul li .content img {
-        width: 40%;
-        border-radius: 20px 0px 20px 0px ;
-        margin-top: -10px;
-    }
-    .eventph h1 {
-       
-        color: #223666;
-        font-size: 1.5rem;
-        font-weight: 800;
-        padding-top: 30px;
-    }
-
-}
-
-
-
-.timeline .content img {
-    width: 40%;
-    border-radius: 50px 0px 50px 0px ;
-    margin-top: -10px;
-    
-}
 
 
 .eventph h1 {
@@ -132,6 +12,7 @@
     color: #424242;
     margin-left: auto;
     margin-right: auto;
+	text-align: center;
     width: 80%;
 }
 
@@ -147,8 +28,321 @@
     justify-content: center;
     text-align: center;
     margin-top: -20px;
-    /* background: url(../images/hero-bg.png) no-repeat scroll center center;
-    background-size: cover; */
     margin-bottom: 30px;
+	text-align: center;
+
+}
+
+.eventtimeline {
+	width: 80%;
+	display: flex;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+}
+
+.eventtimeline .eventimg img{
+	border-radius: 30px 0px 30px 0px;
+	float: right;
+	width: 80%;
+}
+
+
+.eventtimeline .eventtext {
+	float: left;
+}
+
+.eventtimeline  .eventtext h1{
+	font-size: 2em;
+	font-weight: 800;
+	color: #223666;
+
+}
+
+
+.eventtimeline  .eventtext p{
+	font-size: 0.95em;
+	color: #424242;
+	
+}
+
+
+
+.eventtimeline  .eventtext h4{
+	font-size: 0.8em;
+	color: #424242;
+	font-weight: 400;
+	float: right;
+}
+
+.statusevent {
+	background-color: #E0E0E0;
+	width: 120px;
+	border-radius: 12px;
+}
+
+.statusevent p{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+.eventdetailbtn{
+	margin-top: 30px;
+}
+
+.eventdetailbtn button {
+	color: black;
+	background-color: #E0E0E0;
+	border-radius: 3px;
+	border-color: rgb(48, 45, 45);
+	height: 40px;
+	width: 30%;
+	margin-bottom: 20px;
+	font-weight: 600;
+	border-width: 1.2px;
+	font-size: 12px;
+}
+
+
+.eventdetailbtn button:hover {
+	color: white;
+	background-color: #223666;
+	border-radius: 4px;
+	border-color:transparent ;
+	height: 40px;
+	width: 32%;
+	margin-bottom: 20px;
+	font-weight: 600;
+	border-width: 1.5px;
+}
+
+
+
+.eventbg {
+background-color: #424242;
+/* height: 500px; */
+margin-bottom: 50px;
+justify-content: center;
+align-items: center;
+
+}
+
+
+
+.eventtimeline2 {
+	/* padding-top: 70px; */
+	width: 80%;
+	height: auto;
+	display: flex;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.eventtimeline2 .eventimg img{
+	border-radius: 30px 0px 30px 0px;
+	float: right;
+	width: 80%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+
+.eventtimeline2 .eventtext {
+	float: left;
+}
+
+.eventtimeline2  .eventtext h1{
+	font-size: 2em;
+	font-weight: 800;
+	color: #E0E0E0;
+
+}
+
+
+.eventtimeline2  .eventtext p{
+	font-size: 0.95em;
+	color: #E0E0E0;
+	
+}
+
+.eventtimeline2 .statusevent {
+	background-color: #E0E0E0;
+	width: 120px;
+	border-radius: 12px;
+}
+
+.eventtimeline2 .statusevent p{
+	color: #424242;
+	
+}
+.eventtimeline2  .eventtext h4{
+	font-size: 0.8em;
+	color: #E0E0E0;
+	font-weight: 400;
+	float: right;
+}
+
+
+.eventbg .eventtext .statusevent .eventdetailbtn2  button:hover {
+	color: white;
+	background-color: #223666;
+	border-radius: 4px;
+	border-color:transparent;
+	height: 40px;
+	width: 32%;
+	margin-bottom: 20px;
+	font-weight: 600;
+	border-width: 1.5px;
+}
+
+
+@media (max-width : 768px) {
+	
+	.eventtimeline {
+		width: 80%;
+		display: block;
+		height: 490px;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		position: relative;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 30px;
+	}
+	
+	.eventtimeline  .eventtext h1{
+		font-size: 1.5em;
+		font-weight: 800;
+		color: #223666;
+	
+	}
+
+	.eventtimeline  .eventtext p{
+		font-size: 0.7em;
+		color: #424242;
+		
+	}
+	
+	.statusevent {
+		justify-content: center;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	
+.eventdetailbtn button {
+	color: black;
+	background-color: #E0E0E0;
+	border-radius: 3px;
+	border-color: rgb(48, 45, 45);
+	height: 40px;
+	width: 50%;
+	margin-bottom: 20px;
+	font-weight: 600;
+	border-width: 1px;
+	font-size: 10px;
+}
+
+
+.eventdetailbtn button:hover {
+	color: white;
+	background-color: #223666;
+	border-radius: 4px;
+	border-color: white ;
+	height: 40px;
+	width: 54%;
+	margin-bottom: 20px;
+	font-weight: 600;
+	border-width: 1.5px;
+	font-size: 10px;
+
+}
+
+.eventtimeline .eventimg img{
+	border-radius: 10px 10px 10px 10px;
+	float: right;
+	width: 100%;
+}
+
+
+
+
+
+/* =================================================== */
+/* 2nd div */
+/* =========================================================== */
+
+
+
+.eventtimeline2 {
+	width: 80%;
+	display: block;
+	height: 500px;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+}
+
+.eventtimeline2  .eventtext h1{
+	font-size: 1.5em;
+	font-weight: 800;
+	color: #E0E0E0;
+
+}
+
+.eventtimeline2  .eventtext p{
+	font-size: 0.7em;
+	color: #E0E0E0;
+	
+}
+
+.eventdetailbtn2 button {
+color: black;
+background-color: #E0E0E0;
+border-radius: 3px;
+border-color: rgb(48, 45, 45);
+height: 40px;
+width: 50%;
+margin-bottom: 20px;
+font-weight: 600;
+border-width: 1px;
+font-size: 10px;
+}
+
+
+.eventdetailbtn2 .eventdetailbtn button:hover {
+color: white;
+background-color: #223666;
+border-radius: 4px;
+height: 40px;
+width: 54%;
+margin-bottom: 20px;
+font-weight: 600;
+border-width: 1.5px;
+font-size: 10px;
+
+}
+
+.eventbg .eventimg img{
+border-radius: 10px 10px 10px 10px;
+float: right;
+width: 100%;
+}
+
+ .eventbg .statusevent p{
+	color: #424242;
+}
+
 
 }
