@@ -303,6 +303,11 @@ Author URI: http://www.xpeedstudio.com
 /* Landscape phones and portrait tablets */
 @media (max-width: 768px) {
 
+
+  .product {
+    background-color: #424242 ;
+}
+
   .navbar-brand > img {
     
     display: block;
