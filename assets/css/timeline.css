@@ -45,14 +45,14 @@
 }
 .timeline ul li span{
 	display:inline-block;
-	background-color:#1A237E;
+	background-color:#223666;
 	border-radius:25px;
 	padding:2px 5px;
 	font-size:15px;
 	text-align:center;
 }
 .timeline ul li .content h3{
-	color:#1A237E;
+	color:#223666;
 	font-size:1.5em;
 	padding-top:5px;
 }
@@ -66,7 +66,7 @@
 	content:'';
 	width:10px;
 	height:10px;
-	background-color:#1A237E;
+	background-color:#223666;
 	border-radius:50%;
 	left:-11px;
 	top:28px;
@@ -87,7 +87,7 @@
 		padding:30px 5px 30px 10px;
 	}
 	.timeline ul li .content h3{
-		color:#1A237E;
+		color:#223666;
 		font-size:15px;
 	}
     .timeline ul li .content p{
@@ -102,7 +102,7 @@
     }
     .eventph h1 {
        
-        color: #1A237E;
+        color: #223666;
         font-size: 1.5rem;
         font-weight: 800;
         padding-top: 30px;
@@ -122,7 +122,7 @@
 
 .eventph h1 {
     width: 100%;
-    color: #1A237E;
+    color: #223666;
     font-size: 2rem;
     font-weight: 800;
     padding-top: 30px;

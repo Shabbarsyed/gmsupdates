@@ -46,7 +46,7 @@
   .title-wrap,
   .section-title {
     text-align: center; 
-    color: #1A237E ;
+    color: #223666 ;
   }
   
   .bg-white {
@@ -413,7 +413,7 @@
 
 
       .mb-4 {
-        color: #1A237E;
+        color: #223666;
       }
 
       .col-md-4 {
@@ -421,13 +421,13 @@
       }
 
       .lnr {
-        color: #1A237E;
+        color: #223666;
         font-weight: 500;
       }
 
 
       .col-md-3 h4{
-        color: #1A237E;
+        color: #223666;
         font-weight: 600;
       }
 
@@ -446,7 +446,7 @@
       }
 
       .col-md-4 h4{
-        color: #1A237E;
+        color: #223666;
       }
       .my-4 i{
         color: #424242;

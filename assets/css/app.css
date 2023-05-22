@@ -40,7 +40,7 @@ html { font-size: 62.5%; } */
 }
 
 .inside-page__heading--city,
-.card-front__text-view--city { color:  #1A237E ; line-height: 1.2;}
+.card-front__text-view--city { color:  #223666 ; line-height: 1.2;}
 
 .inside-page__heading--ski,
 .card-front__text-view--ski { color: #2aaac1; }
@@ -109,12 +109,12 @@ html { font-size: 62.5%; } */
 }
 
 .inside-page__btn--city { 
-  border-color:  #1A237E ;
-  color: #1A237E;
+  border-color:  #223666 ;
+  color: #223666;
 }
 
 .inside-page__btn--city::before { 
-  background-color: #1A237E;
+  background-color: #223666;
   color:#E0E0E0 ;
 }
 
@@ -261,32 +261,32 @@ html { font-size: 62.5%; } */
 .card-front__tp--city {
   background: linear-gradient(
     to bottom,
-    #1A237E ,
-    #1A237E 
+    #223666 ,
+    #223666 
   );
 }
 
 .card-front__tp--ski {
   background: linear-gradient(
     to bottom,
-    #1A237E ,
-    #1A237E 
+    #223666 ,
+    #223666 
   );
 }
 
 .card-front__tp--beach {
   background: linear-gradient(
     to bottom,
-    #1A237E ,
-    #1A237E 
+    #223666 ,
+    #223666 
   );
 }
 
 .card-front__tp--camping {
   background: linear-gradient(
     to bottom,
-    #1A237E ,
-    #1A237E 
+    #223666 ,
+    #223666 
   );
 }
 
@@ -371,7 +371,7 @@ html { font-size: 62.5%; } */
 }
 .testimonial__title {
   width: 100%;
-  color: #1A237E;
+  color: #223666;
   font-size: 2.5rem;
   font-weight: 800;
   padding-top: 30px;

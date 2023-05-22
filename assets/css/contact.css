@@ -230,7 +230,7 @@
   }
 
   .responsive-cell-block {
-	color: #1A237E;
+	color: #223666;
   }
 
   .responsive-cell-block textarea {
@@ -398,7 +398,7 @@
 	height: 50px;
 	font-size: 18px;
 	font-weight: 700;
-	color: #1A237E;
+	color: #223666;
 	border-top-width: 0px;
 	border-right-width: 0px;
 	border-bottom-width: 0px;
@@ -426,7 +426,7 @@
   
   .contact_us_8 .submit-btn:hover {
 	width: 100%;
-	background-color: #1A237E;
+	background-color: #223666;
 	height: 50px;
 	font-size: 18px;
 	font-weight: 700;
@@ -474,7 +474,7 @@
 	top: 0px;
 	height: 100%;
 	right: 0;
-	background-color: #1A237E;
+	background-color: #223666;
 	max-width: 363px;
 	width: 100%;
 	display: flex;

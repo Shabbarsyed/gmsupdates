@@ -45,9 +45,9 @@ nav.navbar.bootsnav{
     -webkit-border-radius: 0px;
     -o-border-radius: 0px;
     border-radius: 0px;
-    background-color: #1A237E ;
+    background-color: #223666 ;
     border: none;
-    border-bottom: solid 1px  #1A237E;
+    border-bottom: solid 1px  #223666;
     z-index: 9;
 }
 
@@ -65,7 +65,7 @@ nav.navbar.bootsnav ul.nav li.active > a{
 }
 
 nav.navbar.bootsnav .navbar-toggle{
-    background-color: #1A237E !important;
+    background-color: #223666 !important;
     border: none;
     padding: 0;
     font-size: 18px;
