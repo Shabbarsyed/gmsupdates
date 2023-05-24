@@ -230,17 +230,19 @@ h5,
 h6 {
     margin: 0;
     font-family: 'Raleway', sans-serif;
-    color:#1a1a1a;
+    color:#223666;
     margin-bottom: 10px;
 }
 
 h1 {
-    font-size: 3em;
-    line-height: 4rem;
+    font-size: 2em;
+    
+    color:#223666;
 }
 h2 {
-    font-size: 2.5rem;
+    font-size: 1.8rem;
     line-height: 3rem;
+    color:#223666;
 }
 h3 {
     font-size: 1.500rem;
@@ -687,9 +689,9 @@ textarea::-ms-input-placeholder{
     overflow: hidden;
     color: #E0E0E0;
 }
-.head_title h2{
+.head_title h3{
     font-weight: 700;
-    font-size: 3rem;
+    font-size: 2rem;
     color: #E0E0E0;
 }
 .head_title h5{
@@ -1045,9 +1047,9 @@ Featured section style
     
 }
 
-.business_item h2{
+.business_item h3{
     color: #223666;
-    font-size:3rem;
+    font-size:2rem;
     font-weight: 800;
 }
 .business_item li{
@@ -1579,7 +1581,7 @@ transform: rotate(90deg);
   } */
 
 .content-1 h1{
-    font-size: 3em;
+    font-size: 2em;
 }
   .container-1 {
     
@@ -1612,6 +1614,7 @@ transform: rotate(90deg);
     font-weight: 800;
     color: #223666;
     margin-top: 50px;
+    
   }
 
 
@@ -1857,10 +1860,7 @@ transform: rotate(90deg);
 
 
 /* //end product section */
-.text-uppercase {
-    font-size: 3rem;
-    color:#223666 ;
-}
+
 
 .container-end h1{
     margin-left: 4.3rem;
@@ -2417,7 +2417,7 @@ transform: rotate(90deg);
   .space1 h1 {
     font-weight: 700;
     word-spacing: normal;
-    font-size: 2.5em;
+    font-size: 2em;
     color: #223666;
   text-align: center;
   }
@@ -2478,4 +2478,33 @@ transform: rotate(90deg);
   .banner__close > span {
     color: #ffffff;
   }
+  
+
+
+
+  .textbtn a {
+    box-shadow: inset 0 0 0 0 #223666;
+    color: #223666;
+      padding: 0 .25rem;
+      margin: 0 -.25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  }
+ .textbtn a:hover {
+    color: #fff;
+    font-size: 14px;
+    box-shadow: inset 200px 0 0 0 #223666;
+  }
+  
+  /* Presentational styles */
+ .textbtn a {
+      color: #223666;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+      font-weight: 700;
+    line-height: 1.5;
+    text-decoration: none;
+  }
+  
+
+  
   
