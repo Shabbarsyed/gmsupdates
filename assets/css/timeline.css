@@ -52,7 +52,8 @@
 
 
 .eventtimeline .eventtext {
-	margin-top: 50px;
+	margin-top: 70px;
+
 	float: left;
 }
 
@@ -226,7 +227,7 @@ align-items: center;
 	.eventtimeline {
 		width: 80%;
 		display: block;
-		height: auto;
+		height: 400px;
 		justify-content: center;
 		align-items: center;
 		text-align: center;
@@ -234,6 +235,11 @@ align-items: center;
 		margin-left: auto;
 		margin-right: auto;
 		
+	}
+	.eventtimeline .eventtext {
+		margin-top: 0px;
+	
+		float: left;
 	}
 	
 	.eventtimeline  .eventtext h1{
