@@ -40,6 +40,8 @@
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 30px;
+	justify-content: center;
+	align-content: center;
 }
 
 .eventtimeline .eventimg img{
@@ -50,6 +52,7 @@
 
 
 .eventtimeline .eventtext {
+	margin-top: 50px;
 	float: left;
 }
 
@@ -223,14 +226,14 @@ align-items: center;
 	.eventtimeline {
 		width: 80%;
 		display: block;
-		height: 400px;
+		height: auto;
 		justify-content: center;
 		align-items: center;
 		text-align: center;
 		position: relative;
 		margin-left: auto;
 		margin-right: auto;
-		margin-bottom: 30px;
+		
 	}
 	
 	.eventtimeline  .eventtext h1{
