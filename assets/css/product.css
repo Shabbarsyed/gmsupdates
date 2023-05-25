@@ -53,7 +53,7 @@ background-color: #414141;
 
     width: 280px;
 
-    height: 150px;
+    height: 250px;
 
     transition: 0.5s;
 
@@ -73,7 +73,7 @@ background-color: #414141;
 
     transition: .7s;
 
-    transform: translateY(25px);
+    transform: translateY(120px);
 
 }
 
@@ -151,6 +151,8 @@ background-color: #414141;
 .containercard .card .slide.slide2 .content h3 {
 
     margin: 0 0 10px 0;
+
+    margin-top: -50px;
 
     padding: 0;
 
@@ -334,3 +336,34 @@ background-color: #414141;
 
     }
 }
+
+
+
+
+
+
+.collapsiblelist {
+    
+    color: black;
+    font-weight: 800;
+    cursor: pointer;
+
+    width: 50%;
+    height: 10px;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 10px;
+    background-color: transparent;
+  }
+  
+  /* .active, .collapsiblelist:hover {
+    background-color: #555;
+  } */
+  
+  .contentproduct {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: transparent;
+  }
