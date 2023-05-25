@@ -5,7 +5,9 @@ justify-content: center;
 width: 100%;
 }
 
-
+.principles img{
+	display: none;
+}
 .containercardgray
 {
 display: flex;
@@ -314,4 +316,21 @@ background-color: #414141;
 
     color: #223666;
 
+}
+
+
+
+
+@media (max-width : 768px) {
+
+    .principles img {
+        margin-top: -70px;
+        display: inline;
+        height:3px;
+    }
+    .principles {
+        justify-content: center;
+        align-items: center;
+
+    }
 }

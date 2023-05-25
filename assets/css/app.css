@@ -462,6 +462,16 @@ html { font-size: 62.5%; } */
 
 @media (max-width: 768px) {
 
+
+  .testimonial__title {
+    width: 100%;
+    color: #223666;
+    font-size: 2rem;
+    font-weight: 800;
+    padding-top: 30px;
+    text-align: center;
+  }
+
   .card-area {
     align-items: center;
     display: flex;

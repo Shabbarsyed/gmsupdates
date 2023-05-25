@@ -4,7 +4,10 @@
  */
 
   
-
+ .porfolioph img {
+  display: none;
+  }
+  
   
   /* @media (min-width: 1200px) {
     .boxed-page {
@@ -369,6 +372,17 @@
     margin: 15px 0 15px 15px; }
   
   @media (min-width: 768px) and (max-width: 1200px) {
+    .aboutph img {
+      margin-top: -40px;
+      display: inline;
+      height:3px;
+      width: 90px;
+  }
+  .aboutph {
+      justify-content: center;
+      align-items: center;
+
+  }
     .boxed-page {
       margin-right: 30px;
       margin-left: 30px; }
@@ -384,6 +398,25 @@
       background-color: #fff; } }
   
   @media (max-width: 767px) {
+
+
+    .bg-white {
+      margin-top: -100px;
+    }
+    
+    .porfolioph img {
+      margin-top: -40px;
+      display: inline;
+      height:3px;
+      width: 160px;
+  }
+
+  .porfolioph {
+      justify-content: center;
+      align-items: center;
+
+  }
+
     .row .col-md-2 img{
       align-items: center;
       justify-content: center;
@@ -457,3 +490,44 @@
         color: #424242;
         text-align: center;
       }
+
+
+
+      
+
+
+  
+  .porfolioph {
+      justify-content: center;
+      text-align: center;
+      margin-top: -20px;
+      /* background: url(../images/hero-bg.png) no-repeat scroll center center;
+      background-size: cover; */
+      margin-bottom: 30px;
+  
+  }
+  
+  /* .porfolioph img {
+      width: 200px;
+  } */
+  
+  
+  .porfolioph h1 {
+      width: 100%;
+      color: #223666;
+      font-size: 2rem;
+      font-weight: 800;
+      padding-top: 30px;
+  }
+  
+  .porfolioph p {
+      color: #424242;
+      margin-left: auto;
+      margin-right: auto;
+      width: 80%;
+  }
+  
+  .porfolio {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}

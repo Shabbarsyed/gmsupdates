@@ -17,6 +17,7 @@
 }
 
 
+
 .Events {
     padding-top: 20px;
     padding-bottom: 10px;
@@ -54,7 +55,7 @@
 .eventtimeline .eventtext {
 	margin-top: 70px;
 
-	float: left;
+	
 }
 
 .eventtimeline  .eventtext h1{
@@ -208,8 +209,28 @@ align-items: center;
 
 
 @media (max-width : 768px) {
-	
 
+	.eventph h3 {
+		
+		color: #223666;
+		font-size: 2rem;
+		font-weight: 800;
+		padding-top: 30px;
+	}
+	
+	.eventph img {
+        margin-top: -40px;
+        display: inline;
+        height:3px;
+        width: 240px;
+    }
+    .eventph {
+        justify-content: center;
+        align-items: center;
+
+    }
+
+	
 	
 .eventtimeline2 {
 	padding-top: 50px;

@@ -57,7 +57,14 @@
   width: 100%;
 }
 
+.eventph img {
+	display: none;
+}
 @media (max-width: 1024px) {
+	.eventph img {
+		display: none;
+	}
+	  
   .wk-ipadp-1 {
     width: 8.333333%;
   }
@@ -508,8 +515,16 @@
 	min-height: 30px;
 	margin: 0 0 30px 0;
   }
+  .eventph img {
+	display: non;
+}
+  
   
   @media (max-width: 1024px) {
+	.eventph img {
+		display: non;
+	}
+	  
 	.contact_us_8 .right-side-text {
 	  right: 0px;
 	  top: 0px;
@@ -554,8 +569,25 @@
 	  justify-content: center;
 	}
   }
-  
+
+
+ 
   @media (max-width: 768px) {
+
+	
+    .eventph img {
+        margin-top: -30px;
+        display: inline;
+        height:3px;
+		width: 100px;
+    }
+    .eventph {
+        justify-content: center;
+        align-items: center;
+
+    }
+
+	
 	.contact_us_8 .submit-btn {
 	  width: 100%;
 	}

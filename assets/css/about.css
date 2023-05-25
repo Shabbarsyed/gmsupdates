@@ -7,6 +7,9 @@
 }
 
 
+.aboutph img {
+display: none;
+}
 
 .aboutph {
     justify-content: center;
@@ -89,3 +92,41 @@
     padding-top: 30px;
 }
   
+
+
+
+
+@media (max-width : 768px) {
+
+    .aboutph img {
+        margin-top: -40px;
+        display: inline;
+        height:3px;
+        width: 90px;
+    }
+    .aboutph {
+        justify-content: center;
+        align-items: center;
+
+    }
+    .valuebody h1{
+        width: 100%;
+        color: #223666;
+        font-size: 2rem;
+        font-weight: 800;
+        padding-top: 30px;
+    }
+      
+    .aboutph h1 {
+        width: 100%;
+        color: #223666;
+        font-size: 2rem;
+        font-weight: 800;
+        padding-top: 30px;
+    }
+
+    .testimonial__title {
+        font-size: 2rem;
+    }
+
+}
