@@ -32,10 +32,10 @@
 @media (max-width : 768px) {
 
 	.float {
-    width:60px;
-	height:60px;
-	bottom:30px;
-	right:20px;
+		width:100px;
+		height:40px;
+		bottom:100px;
+		right:0px;
 	}
 
 
