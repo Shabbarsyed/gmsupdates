@@ -33,3 +33,44 @@
     width: 50%;
     float: right;
 }
+
+@media (max-width: 786px) {
+    .certificate {
+        width: 80%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    
+    .textcertificate {
+        height: 50vh;
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    .textcertificate h1 {
+        font-size: 2em;
+        color: #223666;
+        font-weight: 800;
+    }
+    
+    .textcertificate p {
+        color: #424242;
+    }
+
+    
+.textcertificateimg {
+    margin-top: -140px;
+    display: block;
+    justify-content: center ;
+    align-items: center;
+}
+
+.textcertificateimg img{
+    width: 50%;
+}
+
+
+}
