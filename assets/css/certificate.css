@@ -1,0 +1,35 @@
+.certificate {
+    width: 80%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.textcertificate {
+    margin-top: 100px;
+    height: 50vh;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.textcertificate h1 {
+    font-size: 2.5em;
+    color: #223666;
+    font-weight: 800;
+}
+
+.textcertificate p {
+    color: #424242;
+}
+
+.textcertificateimg {
+    margin-top: 100px;
+    float: right;
+    display: block;
+}
+
+.textcertificateimg img{
+    width: 50%;
+    float: right;
+}
