@@ -167,17 +167,20 @@
                 <div class="collapse navbar-collapse" id="navbar-menu">
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="index.html">Home</a></li>
-                        <li>
+                        <li >
+                           
                             <a href="#">Product</a>
+
                             <div class="megamenue">
+
                                 <div class="megamenuitems">
                                     <h1><a href="">Light Microscopes</a> </h1>
                                     <ul>
-                                        <li>Upright</li>
-                                        <li>Inverted</li>
-                                        <li>Microscope</li>
-                                        <li>Laser</li>
-                                        <li>Stero</li>
+                                        <li><a href="#">Upright</a></li>
+                                        <li><a href="#">Inverted</a> </li>
+                                        <li><a href="#">Microscope</a></li>
+                                        <li><a href="#">Laser</a></li>
+                                        <li><a href="#">Stero</a></li>
                                         
                                     </ul>
                                     <h2>Confocal Microscope</h2>
@@ -188,12 +191,11 @@
 
                                     <h1><a href="">Light Microscopes</a> </h1>
                                     <ul>
-                                        <li>Upright</li>
-                                        <li>Inverted</li>
-                                        <li>Microscope</li>
-                                        <li>Laser</li>
-                                        <li>Stero</li>
-                                        
+                                        <li><a href="#">Upright</a></li>
+                                        <li><a href="#">Inverted</a> </li>
+                                        <li><a href="#">Microscope</a></li>
+                                        <li><a href="#">Laser</a></li>
+                                        <li><a href="#">Stero</a></li>
                                     </ul>
                                     <h2>Confocal Microscope</h2>
                                     <h2>Digital Microscope</h2>
@@ -203,11 +205,11 @@
                                 <div class="megamenuitems">
                                     <h1><a href="">Light Microscopes</a> </h1>
                                     <ul>
-                                        <li>Upright</li>
-                                        <li>Inverted</li>
-                                        <li>Microscope</li>
-                                        <li>Laser</li>
-                                        <li>Stero</li>
+                                        <li><a href="#">Upright</a></li>
+                                        <li><a href="#">Inverted</a> </li>
+                                        <li><a href="#">Microscope</a></li>
+                                        <li><a href="#">Laser</a></li>
+                                        <li><a href="#">Stero</a></li>
                                         
                                     </ul>
                                     <h2>Confocal Microscope</h2>
@@ -219,11 +221,11 @@
                                 <div class="megamenuitems">
                                     <h1><a href="">Light Microscopes</a> </h1>
                                     <ul>
-                                        <li>Upright</li>
-                                        <li>Inverted</li>
-                                        <li>Microscope</li>
-                                        <li>Laser</li>
-                                        <li>Stero</li>
+                                        <li><a href="#">Upright</a></li>
+                                        <li><a href="#">Inverted</a> </li>
+                                        <li><a href="#">Microscope</a></li>
+                                        <li><a href="#">Laser</a></li>
+                                        <li><a href="#">Stero</a></li>
                                         
                                     </ul>
                                     <h2>Confocal Microscope</h2>
@@ -716,6 +718,19 @@
 
     <!-- JS includes -->
 
+    
+<script>
+    var toggler = document.getElementsByClassName("caret");
+    var i;
+    
+    for (i = 0; i < toggler.length; i++) {
+      toggler[i].addEventListener("click", function() {
+        this.parentElement.querySelector(".nested").classList.toggle("active");
+        this.classList.toggle("caret-down");
+      });
+    }
+    </script>
+    
 
     <script src="assets/js/vendor/jquery-1.11.2.min.js"></script>
     <script src="assets/js/vendor/bootstrap.min.js"></script>
