@@ -300,6 +300,9 @@ align-items: center;
     text-align: center;
 }
 
+.eventtimeline .eventdetailbtn button{
+	margin-bottom: 20px;
+}
 
 .eventdetailbtn button:hover {
 	width: 30%;
@@ -377,7 +380,7 @@ align-items: center;
 
 
 .eventdetailbtn2 .eventdetailbtn button:hover {
- width: 30%;
+    width: 30%;
     height: 5vh;
     color: #223666;
     background-color: white;
@@ -389,7 +392,6 @@ align-items: center;
    border-color: #223666;
    border-width: 2px;
    border-style: double;
-
 }
 
 .eventbg .eventimg img{
