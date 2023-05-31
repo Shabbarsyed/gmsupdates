@@ -8,7 +8,11 @@
     width: 100%;
   }
 
+  .topnav{
+    display: none;
+  }
 
+  
  
 .content1 {
     width: 100%;
@@ -435,7 +439,7 @@ display: none;
 
 .aboutpagephend {
     width: 100%;
-    height: 80vh;
+    height: 90vh;
     }
     
     
@@ -591,8 +595,17 @@ display: none;
 }
 
 
+.containernv {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 @media (max-width : 768px) {
+
+    
+   
 
     .aboutph img {
         margin-top: -40px;
@@ -644,17 +657,18 @@ display: none;
 }
 .aboutpageph {
     width: 80%;
-    height: 50vh;
+    height: 60vh;
     text-align: center;
     justify-content: center;
     align-items: center;
 }
 .aboutpagephimg {
     width: 100%;
-    height: 50vh;
+    height: 60vh;
     text-align: center;
     justify-content: center;
     align-items: center;
+    margin-top: -40px;
 }
 
 .aboutpageph h1 {
@@ -838,7 +852,7 @@ display: none;
 
     .about3section{
         width: 80%;
-        height: 190vh;
+        height: 230vh;
         justify-content: center;
         align-items: center;
         margin-left: auto;
@@ -904,7 +918,7 @@ display: none;
         width: 100%;
         height: 150px;
         background: url(../images/hands\ on\ keyboard.jpg) no-repeat;
-        background-size: contain;
+        background-size: cover;
     }
 
 
@@ -957,7 +971,7 @@ display: none;
 
 .aboutpageend {
     width: 80%;
-    height: 115vh;
+    height: 150vh;
     margin-left: auto;
     margin-right: auto;
     padding-top: 20px;
@@ -982,7 +996,7 @@ display: none;
     margin-right: auto;
     justify-content: space-evenly;
     float: none;
-    margin-top: 20px ;
+    margin-top: 110px ;
     }
 
     .overlays .pabout {

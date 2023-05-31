@@ -377,6 +377,7 @@ background-color: #414141;
    transition-delay: 0.4sec;
    transition: ease-in;
 }
+
 .principles h1{
     margin-bottom:-10px;
 }
@@ -478,6 +479,63 @@ background-color: #414141;
 
 @media (max-width : 768px) {
 
+    
+.buttonform {
+    margin-top: 30px;
+    background-color: #EEEEEE ;
+    height: 6vh;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+}
+
+.buttonform .fa{
+    margin-top: 2.2px;
+    margin-left: 5px;
+    color: #424242;
+}
+
+.buttonform h1{
+    position: absolute;
+    color: #424242;
+    margin-top: -93px;
+    margin-left: 48px;
+    font-size: 1.4em;
+}
+
+.buttonform:hover .fa{
+    float: right;
+    transition-duration: 0.9sec;
+    margin-right: 10px;
+    
+}
+
+.buttonform:hover h1{
+    display: none;
+}
+
+.centerform > h1{
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.centerform p{
+    text-align: center;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+    .formdiv {
+    width: 100%;
+    height: 60vh;
+}
+
     /* .principles img {
         margin-top: -70px;
         display: inline;
@@ -487,6 +545,48 @@ background-color: #414141;
         justify-content: center;
         align-items: center;
     }
+
+    .productdata button {
+        width: 30%;
+        height: 5vh;
+        color: white;
+        background-color: #223666;
+        font-weight: 500;
+        border-color: none;
+        border-style: none;
+        font-size: 12px;
+        
+    }
+    .productdata button:hover {
+        width: 30%;
+        height: 5vh;
+        color: #223666;
+        background-color: white;
+        font-weight: 500;
+        border-radius: 30px;
+        border-style: none;
+       transition-delay: 0.4sec;
+       transition: ease-in;
+    }
+
+    .categories h3 {
+        padding-top: 10vh;
+        font-size: medium;
+        color: #EEEEEE;
+        margin-bottom: 20px;
+    }
+    .productdetails {
+        width: 100%;
+        height: 60vh;
+        margin-right: auto;
+        margin-left: auto;
+        background:url(https://png.pngtree.com/thumb_back/fh260/back_our/20190620/ourmid/pngtree-electronic-technology-website-texture-background-banner-image_156039.jpg) no-repeat;
+        background-size: cover;
+        justify-content: space-evenly;
+        margin-bottom: 20px;
+    }
+    
+    
 }
 
 

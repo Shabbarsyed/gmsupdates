@@ -1557,13 +1557,13 @@ transform: rotate(90deg);
 
   .content-1 ul {
     font-size: 1.2em;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     margin-left: 10px;
     line-height: 1.5;
     color: black;
   }
 
-  .content-1 button {
+  /* .content-1 button {
     margin-left: 2rem;
     bottom: 35px;
     -webkit-transition: all 0.6s;
@@ -1573,7 +1573,7 @@ transform: rotate(90deg);
     border:1px solid;
     margin-bottom: 120px;
     margin-top: -80px;
-  }
+  } */
 
   /* .content-1 button:hover {
     border-color:#223666 ;
@@ -1660,7 +1660,7 @@ transform: rotate(90deg);
 
   .content-2 ul {
     font-size: 1.2em;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     margin-left: 10px;
     line-height: 1.5;
     color: #E0E0E0 ;
@@ -1668,7 +1668,7 @@ transform: rotate(90deg);
 
  
 
-  .content-2 button {
+  /* .content-2 button {
     margin-left: 2rem;
     bottom: 35px;
     -webkit-transition: all 0.6s;
@@ -1679,7 +1679,7 @@ transform: rotate(90deg);
     margin-bottom: 120px;
     margin-top: -80px;
 
-  }
+  } */
 
   
 
@@ -2509,3 +2509,179 @@ transform: rotate(90deg);
 
   
   
+
+
+  .business_btn button {
+    width: 25%;
+    height: 5vh;
+    color: white;
+    background-color: #223666;
+    font-weight: 500;
+    border-color: none;
+    border-style: none;
+    border-radius: 10px;
+    margin-left: 8px;
+}
+.business_btn button:hover {
+    width: 25%;
+    height: 5vh;
+    color: #223666;
+    background-color: white;
+    font-weight: 500;
+    border-radius: 30px;
+    border-style: none;
+   transition-delay: 0.8sec;
+   transition: ease-in;
+}
+
+
+.content-1 button {
+    width: 25%;
+    height: 5vh;
+    color: white;
+    background-color: #223666;
+    font-weight: 500;
+    border-color: none;
+    border-style: none;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+.content-1 button:hover {
+    width: 25%;
+    height: 5vh;
+    color: #223666;
+    background-color: white;
+    font-weight: 500;
+    border-radius: 30px;
+    border-style: none;
+   transition-delay: 0.8sec;
+   transition: ease-in;
+   border-color: #223666;
+   border-width: 2px;
+   border-style: double;
+}
+
+
+.content-2 button {
+    width: 25%;
+    height: 5vh;
+    color: white;
+    background-color: #223666;
+    font-weight: 500;
+    border-color: none;
+    border-style: none;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+.content-2 button:hover {
+    width: 25%;
+    height: 5vh;
+    color: #223666;
+    background-color: white;
+    font-weight: 500;
+    border-radius: 30px;
+    border-style: none;
+   transition-delay: 0.8sec;
+   transition: ease-in;
+   border-color: #223666;
+   border-width: 2px;
+   border-style: double;
+}
+
+
+@media (max-width:768px) {
+    
+  .business_btn button {
+    width: 30%;
+    height: 5vh;
+    color: white;
+    font-size: 10px;
+    background-color: #223666;
+    font-weight: 500;
+    border-color: none;
+    border-style: none;
+}
+.business_btn button:hover {
+    width: 30%;
+    height: 5vh;
+    color: #223666;
+    background-color: white;
+    font-weight: 500;
+    border-radius: 30px;
+    border-style: none;
+   transition-delay: 0.8sec;
+   transition: ease-in;
+}
+
+/* .content-1 {
+    justify-content: center;
+    align-items: center;
+    text-align: center
+    ;
+} */
+
+.content-1 button {
+    width: 30%;
+    height: 5vh;
+    color: white;
+    font-size: 10px;
+    background-color: #223666;
+    font-weight: 500;
+    border-color: none;
+    border-style: none;
+    border-radius: 10px;
+    margin-top: -100px;
+    margin-left: 135px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.content-1 button:hover {
+    width: 30%;
+    height: 5vh;
+    color: #223666;
+    background-color: white;
+    font-weight: 500;
+    border-radius: 30px;
+    border-style: none;
+   transition-delay: 0.8sec;
+   transition: ease-in;
+   border-color: #223666;
+   border-width: 2px;
+   border-style: double;
+}
+
+
+.content-2 button {
+    width: 30%;
+    height: 5vh;
+    color: white;
+    font-size: 10px;
+    background-color: #223666;
+    font-weight: 500;
+    border-color: none;
+    border-style: none;
+    border-radius: 10px;
+    margin-top: -100px;
+    margin-left: 135px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.content-2 button:hover {
+    width: 30%;
+    height: 5vh;
+    color: #223666;
+    background-color: white;
+    font-weight: 500;
+    border-radius: 30px;
+    border-style: none;
+   transition-delay: 0.8sec;
+   transition: ease-in;
+   border-color: #223666;
+   border-width: 2px;
+   border-style: double;
+}
+
+
+}
