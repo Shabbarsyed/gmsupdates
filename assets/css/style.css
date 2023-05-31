@@ -2534,6 +2534,9 @@ transform: rotate(90deg);
    transition: ease-in;
 }
 
+.content-1 h1{
+    margin-top: 80px;
+}
 
 .content-1 button {
     width: 25%;
@@ -2561,7 +2564,9 @@ transform: rotate(90deg);
    border-style: double;
 }
 
-
+.content-2 h1{
+    margin-top: 80px;
+}
 .content-2 button {
     width: 25%;
     height: 5vh;

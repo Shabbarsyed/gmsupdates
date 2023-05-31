@@ -439,7 +439,7 @@ display: none;
 
 .aboutpagephend {
     width: 100%;
-    height: 90vh;
+    height: 80vh;
     }
     
     
@@ -643,7 +643,7 @@ display: none;
     height: 18vh;
     background: url(../images/aboutbanner.jpg) no-repeat ;
     background-size: contain;
-    margin-top: -80px;
+    margin-top: -18px;
 }
 
 /* ===================================================================== */
@@ -657,14 +657,14 @@ display: none;
 }
 .aboutpageph {
     width: 80%;
-    height: 60vh;
+    height: 50vh;
     text-align: center;
     justify-content: center;
     align-items: center;
 }
 .aboutpagephimg {
     width: 100%;
-    height: 60vh;
+    height: 50vh;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -852,7 +852,7 @@ display: none;
 
     .about3section{
         width: 80%;
-        height: 230vh;
+        height: 190vh;
         justify-content: center;
         align-items: center;
         margin-left: auto;
@@ -916,7 +916,7 @@ display: none;
 
     .imgdiv {
         width: 100%;
-        height: 150px;
+        height: 130px;
         background: url(../images/hands\ on\ keyboard.jpg) no-repeat;
         background-size: cover;
     }
@@ -971,7 +971,7 @@ display: none;
 
 .aboutpageend {
     width: 80%;
-    height: 150vh;
+    height: 120vh;
     margin-left: auto;
     margin-right: auto;
     padding-top: 20px;
@@ -996,7 +996,7 @@ display: none;
     margin-right: auto;
     justify-content: space-evenly;
     float: none;
-    margin-top: 110px ;
+    margin-top: 20px ;
     }
 
     .overlays .pabout {
