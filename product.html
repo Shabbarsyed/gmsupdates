@@ -26,6 +26,8 @@
     <link rel="stylesheet" href="assets/css/product.css">
     <link rel="stylesheet" href="assets/css/responsiveProductline.css">
 
+    <link rel="stylesheet" href="assets/css/dropdown.css">
+    <link rel="stylesheet" href="assets/css/megamenu2.css">
     <link rel="stylesheet" href="assets/css/slick/textanimation.css">
     <link rel="stylesheet" href="assets/css/slick/slick.css">
     <link rel="stylesheet" href="assets/css/slick/slick-theme.css">
@@ -76,6 +78,8 @@
 
 
         <nav class="navbar navbar-default bootsnav navbar-fixed">
+
+
             <div class="navbar-top  fix">
                 <div class="container">
                     <div class="row">
@@ -103,6 +107,95 @@
                 </div>
             </div>
 
+            <div class="topnav" id="myTopnav">
+                <a href="index.html" class="active">
+                  <img src="assets/images/logoof.svg" alt="">
+                </a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="Contactus.html">Contact</a>
+                <div class="dropdown">
+                  <button class="dropbtn">Product
+                    <i class="fa fa-caret-down"></i>
+                  </button>
+                  <div class="dropdown-content">
+                    <ul id="myUL">
+                        <a href="product.html">Product</a>
+                      <li><a class="clickit" href="#"><i class="fa fa-caret-down"></i>Menu here</a>
+                        <ul class="nested">
+                          <li><a href="">2nd Menu</a></li>
+                          <li><a href="">2nd Menu</a></li>
+                         
+                        </ul>
+                      </li>
+                     
+                      <li><a class="clickit" href="#"><i class="fa fa-caret-down"></i>Menu here</a>
+                        <ul class="nested">
+                          <li><a href="#">2nd Menu</a></li>
+                          <li><a href="#">2nd Menu </a></li>
+                          
+                        </ul>
+                      </li>
+                    </ul>
+                    </li>
+                    </ul>
+                  </div>
+            
+                </div>
+                <div class="dropdown">
+                  <button class="dropbtn">About
+                    <i class="fa fa-caret-down"></i>
+                  </button>
+                  <div class="dropdown-content">
+                    <ul id="myUL">
+                        <a href="aboutus.html">Aboutus</a>
+                      <li><a class="clickit" href="#"><i class="fa fa-caret-down"></i>Menu here</a>
+                        <ul class="nested">
+                          <li><a href="#">Menu here</a></li>
+                          <li><a href="#">Menu here</a></li>
+                          <li><a href="#">Menu here</a></li>
+                          <li><a href="#">Menu here</a></li>
+                        </ul>
+                      </li>
+                      <li><a class="clickit" href="#"><i class="fa fa-caret-down"></i>Menu here</a>
+                        <ul class="nested">
+                          <li><a href="#">Menu here</a></li>
+                          <li><a href="#">Menu here</a></li>
+                          <li><a href="#">Menu here</a></li>
+                          <li><a href="#">Menu here</a></li>
+                        </ul>
+                      </li>
+                      <li><a class="clickit" href="#"><i class="fa fa-caret-down"></i>Menu here</a>
+                        <ul class="nested">
+                          <li><a href="#">Menu here</a></li>
+                          <li><a href="#">Menu here</a></li>
+                          <li><a href="#">Menu here</a></li>
+                          <li><a href="#">Menu here</a></li>
+                        </ul>
+                      </li>
+                      <li><a class="clickit" href="#"><i class="fa fa-caret-down"></i>Menu here</a>
+                        <ul class="nested">
+                          <li><a href="#">Menu here</a></li>
+                          <li><a href="#">Menu here</a></li>
+                          <li><a href="#">Menu here</a></li>
+                          <li><a href="#">Menu here</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                    </li>
+                    </ul>
+                  </div>
+            
+                </div>
+            
+                <a href="Event.html">Event</a>
+                <a href="Event.html">Blog</a>
+            
+            
+                <a href="javascript:void(0);" style="font-size:28px; " class="icon" onclick="myFunction()">&#9776;</a>
+              </div>
+
+
+
             <!-- Start Top Search -->
             <div class="top-search">
                 <div class="container">
@@ -115,45 +208,114 @@
             </div>
             <!-- End Top Search -->
 
-            <div>
-                <div class="container">
-                    <div class="attr-nav">
-                        <ul>
-                            <li class="search"><a href="#"><i class="fa fa-search" style="color: #E0E0E0 " ;></i></a>
-                            </li>
-                        </ul>
-                    </div>
 
-                    <!-- Start Header Navigation -->
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
-                            <i class="fa fa-bars"></i>
-                        </button>
-                        <a class="navbar-brand" href="#brand">
-                            <img src="assets/images/logoof.svg" class="logo" alt="">
-                            <!-- <img src="assets/images/logo.png"   "class="logo logo-scrolled" alt=""> -->
-                        </a>
+            
 
-                    </div>
-                    <!-- End Header Navigation -->
-
-                    <!-- navbar menu -->
-                    <div class="collapse navbar-collapse" id="navbar-menu">
-                        <ul class="nav navbar-nav navbar-right">
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="product.html">Product</a></li>
-                            <li><a href="aboutus.html">About</a></li>
-                            <li><a href="Event.html">Events</a></li>
-                            <li><a href="#work">Portfolio</a></li>
-                            <li><a href="blogsection.html">Blog</a></li>
-                            <li><a href="Contactus.html">Contact</a></li>
-                        </ul>
-                    </div><!-- /.navbar-collapse -->
+            <div class="containernv">
+                <div class="attr-nav">
+                    <ul>
+                        <li class="search"><a href="#"><i class="fa fa-search" style="color: #E0E0E0 " ;></i></a></li>
+                    </ul>
                 </div>
+
+                <!-- Start Header Navigation -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                    <a class="navbar-brand" href="#brand">
+                        <img src="assets/images/logoof.svg" class="logo" alt="">
+                        <!-- <img src="assets/images/logo.png"   "class="logo logo-scrolled" alt=""> -->
+                    </a>
+
+                </div>
+                <!-- End Header Navigation -->
+
+
+
+
+                <!-- navbar menu -->
+                <div class="collapse navbar-collapse" id="navbar-menu">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="index.html">Home</a></li>
+                        <li >
+                           
+                            <a href="product.html">Product <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+
+                            <div class="megamenue">
+
+                                <div class="megamenuitems">
+                                    <h1><a href="">Light Microscopes</a> </h1>
+                                    <ul>
+                                        <li><a href="#">Upright</a></li>
+                                        <li><a href="#">Inverted</a> </li>
+                                        <li><a href="#">Microscope</a></li>
+                                        <li><a href="#">Laser</a></li>
+                                        <li><a href="#">Stero</a></li>
+                                        
+                                    </ul>
+                                    <h2>Confocal Microscope</h2>
+                                    <h2>Digital Microscope</h2>
+                                </div>
+
+                                <div class="megamenuitems">
+
+                                    <h1><a href="">Light Microscopes</a> </h1>
+                                    <ul>
+                                        <li><a href="#">Upright</a></li>
+                                        <li><a href="#">Inverted</a> </li>
+                                        <li><a href="#">Microscope</a></li>
+                                        <li><a href="#">Laser</a></li>
+                                        <li><a href="#">Stero</a></li>
+                                    </ul>
+                                    <h2>Confocal Microscope</h2>
+                                    <h2>Digital Microscope</h2>
+                                </div>
+
+
+                                <div class="megamenuitems">
+                                    <h1><a href="">Light Microscopes</a> </h1>
+                                    <ul>
+                                        <li><a href="#">Upright</a></li>
+                                        <li><a href="#">Inverted</a> </li>
+                                        <li><a href="#">Microscope</a></li>
+                                        <li><a href="#">Laser</a></li>
+                                        <li><a href="#">Stero</a></li>
+                                        
+                                    </ul>
+                                    <h2>Confocal Microscope</h2>
+                                    <h2>Digital Microscope</h2>
+                                </div>
+
+
+
+                                <div class="megamenuitems">
+                                    <h1><a href="">Light Microscopes</a> </h1>
+                                    <ul>
+                                        <li><a href="#">Upright</a></li>
+                                        <li><a href="#">Inverted</a> </li>
+                                        <li><a href="#">Microscope</a></li>
+                                        <li><a href="#">Laser</a></li>
+                                        <li><a href="#">Stero</a></li>
+                                        
+                                    </ul>
+                                    <h2>Confocal Microscope</h2>
+                                    <h2>Digital Microscope</h2>
+                                </div>
+                            </div>
+                        </li>
+                        
+                        <li><a href="aboutus.html">About</a></li>
+                        <li><a href="Event.html">Event</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="blogsection.html">Blog</a></li>
+                        <li><a href="Contactus.html">Contact</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
             </div>
-
-
+            
         </nav>
+        
     </div>
 
     <div class="strip">

@@ -57,8 +57,7 @@
 .aboutbanner {
     width: 100%;
     height: 60vh;
-    background: url(https://www.leica-microsystems.com/fileadmin/_processed_/c/8/csm_Quality-Policy_Header_e8deece6dc.jpg) no-repeat ;
-    background-size: cover;
+   
     margin-top: -80px;
 }
 /* .menudisplay{
@@ -90,8 +89,8 @@
     .aboutbanner {
         width: 100%;
         height: 18vh;
-        background: url(https://www.leica-microsystems.com/fileadmin/_processed_/c/8/csm_Quality-Policy_Header_e8deece6dc.jpg) no-repeat ;
-        background-size: contain;
+        /* background: url(https://www.leica-microsystems.com/fileadmin/_processed_/c/8/csm_Quality-Policy_Header_e8deece6dc.jpg) no-repeat ;
+        background-size: contain; */
         margin-top: -25px;
         text-align: center;
     }

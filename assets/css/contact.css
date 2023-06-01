@@ -580,7 +580,7 @@
 
 	
     .eventph img {
-        margin-top: -30px;
+        margin-top: -20px;
         display: inline;
         height:3px;
 		width: 100px;
@@ -590,6 +590,9 @@
         align-items: center;
 
     }
+	.eventph h1{
+		margin-top: 30px;
+	}
 
 	
 	.contact_us_8 .submit-btn {

@@ -101,8 +101,8 @@ ul.menu-col li a:focus{
 /* Navbar Full
 =================================*/
 nav.bootsnav.navbar-full{
-    padding-bottom: 10px;
-    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
 }
 
 nav.bootsnav.navbar-full .navbar-header{
@@ -1040,7 +1040,7 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
         float: none !important;
         padding-left: 30px;
         padding-right: 30px;
-        margin: 0px -15px;
+        margin: 0px -px;
     }
     
     nav.navbar.bootsnav .navbar-nav > li {

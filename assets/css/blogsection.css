@@ -88,6 +88,10 @@
     display: none;
   }
 
+  .eventph h1{
+    font-weight: 800;
+  }
+
  @media (max-width : 768px) {
   
   .eventph img{
