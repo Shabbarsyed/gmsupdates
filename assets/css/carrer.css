@@ -336,7 +336,7 @@ display: none;
     }
 
     .aboutcontainerscard img{
-        width: 360px;
+        width: 300px;
         margin-top: 40px;
         justify-content: space-evenly;
         border-radius: 50px;
@@ -348,11 +348,11 @@ display: none;
     }
 
     .aboutcontainerscard img:hover{
-        width: 320px;
-        margin-top: 60px;
+        width: 280px;
+        margin-top: 50px;
         justify-content: space-evenly;
         border-radius: 50px;
-        margin-left: 20px;
+        margin-left: 10px;
         border-width: thick;
         border-color: #E0E0E0;
         box-shadow: 0 4px 8px 0 rgba(254, 254, 254, 0.2), 0 6px 20px 0 rgba(241, 241, 241, 0.2);
