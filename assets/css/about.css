@@ -797,15 +797,15 @@ display: none;
         color: #424242; 
     }    
 .imgtext {
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
     border-radius: 20px;
     background:url(../images/productlineimg1.webp) no-repeat;
     background-size: cover;
 }
 .imgtext:hover {
-    width: 84px;
-    height: 84px;
+    width: 94px;
+    height: 94px;
     border-radius: 20px;
     background:url(../images/productlineimg1.webp) no-repeat;
     background-size: cover;
@@ -813,15 +813,15 @@ display: none;
 }
 
 .imgtext2 {
-    width: 80px;
-    height: 80px;;
+    width: 100px;
+    height: 100px;
     border-radius: 20px;
     background:url(../images/productline3.jpg) no-repeat;
     background-size: cover;
 }
 .imgtext2:hover {
-    width: 84px;
-    height: 84px;
+    width: 94px;
+    height: 94px;
     border-radius: 20px;
     background:url(../images/productline3.jpg) no-repeat;
     background-size: cover;
@@ -830,16 +830,16 @@ display: none;
 }
 
 .imgtext3 {
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
     border-radius: 20px;
     background:url(../images/productline2.webp) no-repeat;
     background-size: cover;
 }
 
 .imgtext3:hover {
-    width: 84px;
-    height: 84px;
+    width: 94px;
+    height: 94px;
     border-radius: 20px;
     background:url(../images/productline2.webp) no-repeat;
     background-size: cover;
