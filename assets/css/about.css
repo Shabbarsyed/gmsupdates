@@ -205,31 +205,32 @@ display: none;
       }
     
 .imgtext {
-    width: 160px;
-    height: 120px;
+    width: 25%;
+    height: 100px;
     border-radius: 20px;
     background:url(../images/productlineimg1.webp) no-repeat;
     background-size: cover;
 }
 .imgtext:hover {
-    width: 170px;
-    height: 130px;
+    width: 23%;
+    height: 95px;
     border-radius: 20px;
     background:url(../images/productlineimg1.webp) no-repeat;
     background-size: cover;
     transition-duration: 0.5s;
+    margin-left: 5px;
 }
 
 .imgtext2 {
-    width: 160px;
-    height: 120px;
+    width: 25%;
+    height: 100px;
     border-radius: 20px;
     background:url(../images/productline3.jpg) no-repeat;
     background-size: cover;
 }
 .imgtext2:hover {
-    width: 170px;
-    height: 130px;
+    width: 23%;
+    height: 95px;
     border-radius: 20px;
     background:url(../images/productline3.jpg) no-repeat;
     background-size: cover;
@@ -238,16 +239,16 @@ display: none;
 }
 
 .imgtext3 {
-    width: 160px;
-    height: 120px;
+    width: 25%;
+    height: 100px;
     border-radius: 20px;
     background:url(../images/productline2.webp) no-repeat;
     background-size: cover;
 }
 
 .imgtext3:hover {
-    width: 170px;
-    height: 130px;
+    width: 23%;
+    height: 95px;
     border-radius: 20px;
     background:url(../images/productline2.webp) no-repeat;
     background-size: cover;
@@ -674,7 +675,8 @@ display: none;
 .Mstory {
     width: 100%;
     background: linear-gradient(to top, #223666 0%, #424242 100%);
-    height: 20vh;
+    height: fit-content;
+    margin-bottom: 10px;
     
 }
 .Mstorycontent {
@@ -684,7 +686,7 @@ display: none;
 }
 .Mstorycontent h1{
     color: #E0E0E0;
-    font-size: 1.5em;
+    font-size: 1.3em;
     padding: 20px 0px;
     text-align: center;
     font-weight: 500;
@@ -752,11 +754,11 @@ display: none;
     flex-wrap: wrap;
     justify-content: center;
     float: none;
-    padding-bottom: 0px;
+    margin-bottom: 10px;
 }
 .aboutpageph {
     width: 80%;
-    height: 80vh;
+    height:fit-content;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -765,7 +767,7 @@ display: none;
 
 .aboutpagephimg {
     width: 100%;
-    height: 70vh;
+    /* height: 60vh; */
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -956,14 +958,14 @@ display: none;
 
     .about3section{
         width: 80%;
-        height: 260vh;
+        height: fit-content;
         justify-content: center;
         align-items: center;
         margin-left: auto;
         margin-right: auto;
         align-content: center;
         position: relative;
-        margin-bottom: auto;
+        margin-bottom: 30px;
     }
 
     .about3section h1 {
@@ -1079,7 +1081,7 @@ display: none;
 
 .aboutpageend {
     width: 80%;
-    height: 90vh;
+    height:fit-content;
     margin-left: auto;
     margin-right: auto;
     padding-top: 20px;
@@ -1093,7 +1095,7 @@ display: none;
 .aboutpagephend {
     margin-top: 70px;
     width: 100%;
-    height: 80vh;
+    height: fit-content;
     }
     
     
@@ -1242,5 +1244,16 @@ display: none;
         /* heighst: max-content; */
         margin-bottom: 20px;
         
+    }
+}
+
+
+@media (max-width: 1080px) {
+    .aboutpage {
+        height: fit-content;
+    }
+
+    .aboutpageph {
+        height: fit-content;
     }
 }
