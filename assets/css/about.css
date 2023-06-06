@@ -193,6 +193,7 @@ display: none;
     }
     .aboutpageph p {
         float: left;
+        text-align: justify;
         color: #424242;
     }
     
@@ -321,6 +322,7 @@ display: none;
     }
     .productlineph1 p {
         float: left;
+        text-align: justify;
         color: #E0E0E0;
         margin-left: auto;
         margin-right: auto;
@@ -379,6 +381,7 @@ display: none;
     .aboutcontainerscard p{
         color:#424242;
         width: 90%;
+        text-align: justify;
     }
 
     .aboutcontainerscard ul li {
@@ -417,6 +420,7 @@ display: none;
         font-weight: 500;
         color: #E0E0E0;
         width: 40%;
+        text-align: justify;
     }
     
     .aboutsocallink  {
@@ -507,6 +511,7 @@ display: none;
         float: left;
         color: #424242;
         margin-top: 10px;
+        text-align: justify;
     }
 
     .aboutpagephend ul p{
@@ -514,6 +519,7 @@ display: none;
         width: 100%;
         color: #424242;
         margin-top: -8px;
+        text-align: justify;
     }
     
     .overlays {
@@ -793,6 +799,7 @@ display: none;
     }
     .aboutpageph p {
         margin-left: 10px;
+        text-align: justify;
         float: none;
         color: #424242; 
     }    
