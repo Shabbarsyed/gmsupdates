@@ -1228,3 +1228,19 @@ display: none;
 }
 
 }
+
+
+@media (max-width: 500px) {
+    .about3section{
+        width: 80%;
+        height: fit-content;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        align-content: center;
+        /* heighst: max-content; */
+        margin-bottom: 20px;
+        
+    }
+}
