@@ -438,7 +438,6 @@ Author URI: http://www.xpeedstudio.com
   .content-1 {
     flex-basis: 100%;
     text-align: center;
-   
   }
 
   /* .content-1 button {
@@ -496,8 +495,9 @@ Author URI: http://www.xpeedstudio.com
 }
 
   .container-1 h1 {
-    /* margin-left: 7rem; */
+    text-align: center;
     font-size: 2rem;
+    margin-left:-4px ;
     font-weight: 800;
     color: #223666;
   }
@@ -506,9 +506,9 @@ Author URI: http://www.xpeedstudio.com
     display: contents;
     align-items: center auto;
     position: relative;
-
-    margin: 0 auto;
-    padding: 10px 20px;
+    text-align: center;
+    
+    /* padding: 10px 20px; */
   }
 
 
@@ -897,7 +897,7 @@ text-align: center;
 
 
 
-@media (max-width: 400px) {}
+/* @media (max-width: 400px) {}
 
 @media (max-width: 320px) {
   html {
@@ -906,4 +906,4 @@ text-align: center;
 
 
 
-}
+} */
