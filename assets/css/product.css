@@ -609,9 +609,9 @@ background-color: #414141;
     background-color: transparent;
   }
   
-  /* .active, .collapsiblelist:hover {
-    background-color: #555;
-  } */
+  .active, .collapsiblelist:hover {
+    background-color: transparent;
+  }
   
   .contentproduct {
     padding: 0 18px;
