@@ -2608,6 +2608,8 @@ transform: rotate(90deg);
     margin-left: auto;
     margin-right: auto;
 }
+
+
 @media (max-width:768px) {
 
     .containernv {
@@ -2655,8 +2657,8 @@ transform: rotate(90deg);
     border-color: none;
     border-style: none;
     border-radius: 10px;
-    margin-top: -100px;
-    margin-left: 135px;
+    /* margin-top: -100px; */
+    margin-left: 35%;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -2687,8 +2689,8 @@ transform: rotate(90deg);
     border-color: none;
     border-style: none;
     border-radius: 10px;
-    margin-top: -100px;
-    margin-left: 135px;
+    /* margin-top: -100px; */
+    margin-left: 35%;
     align-items: center;
     justify-content: center;
     text-align: center;

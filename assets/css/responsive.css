@@ -153,17 +153,7 @@ Author URI: http://www.xpeedstudio.com
 
 
   /* 2nd div work */
-  /* .content-1 button {
-    margin-left: 70px;
-    bottom: 35px;
-    -webkit-transition: all 0.6s;
-    transition: all 0.6s;
-    font-size: 14px;
-    font-weight: 600;
-    border: 1px solid;
-    margin-bottom: 120px;
-
-  } */
+ 
 
   .container-1 h1 {
     margin-left: 5rem;
@@ -302,6 +292,9 @@ Author URI: http://www.xpeedstudio.com
 
 /* Landscape phones and portrait tablets */
 @media (max-width: 768px) {
+
+
+  
 
 
   .banner {
@@ -502,7 +495,7 @@ Author URI: http://www.xpeedstudio.com
 }
 
   .container-1 h1 {
-    margin-left: 7rem;
+    /* margin-left: 7rem; */
     font-size: 2rem;
     font-weight: 800;
     color: #223666;
@@ -514,7 +507,7 @@ Author URI: http://www.xpeedstudio.com
     position: relative;
 
     margin: 0 auto;
-    padding: 20px 20px;
+    padding: 10px 20px;
   }
 
 
@@ -584,8 +577,7 @@ Author URI: http://www.xpeedstudio.com
 }
 
 .container-2 h1 {
-  margin-left: 7rem;
-
+  text-align: center;
   font-weight: 800;
   color: #E0E0E0;
 }
