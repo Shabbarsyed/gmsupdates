@@ -32,10 +32,17 @@
 @media (max-width : 768px) {
 
 	.float {
-		width:100px;
-		height:40px;
+		width:60px;
+		height:30px;
 		bottom:100px;
 		right:0px;
+		text-align: center;
+	}
+	.my-float{
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+		margin-top: 7px;
 	}
 
 
