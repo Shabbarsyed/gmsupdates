@@ -443,7 +443,7 @@
 
 .productimg {
     width: 100%;
-    height: 80v;
+    height: 60v;
     background: url(../images/productlineimg1.webp);
     background-size: cover;
 }
@@ -452,7 +452,7 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 100vh;
+    height: 70vh;
 }
 /* .productimg {
     margin-top: -80px;
