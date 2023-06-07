@@ -760,7 +760,8 @@ display: none;
     flex-wrap: wrap;
     justify-content: center;
     float: none;
-    margin-bottom: 10px;
+    padding-bottom: 0px;
+    padding-top: 0px;
 }
 .aboutpageph {
     width: 80%;
@@ -885,7 +886,7 @@ display: none;
     }
 
     .productlinepagegrey {
-        height: 90vh;
+        height: 70vh;
         width: 100%;
         background-color: #424242;
     }
@@ -905,12 +906,11 @@ display: none;
 
     
 .productlineph1 {
-    margin-top: 50px;
+    /* margin-top: 50px; */
     width: 100%;
-    height: 70vh;
     justify-content: center;
     align-items: center;
-   float: none;
+    height: fit-content;
     }
     
     
@@ -923,7 +923,7 @@ display: none;
         border-color: #E0E0E0;
         box-shadow: 0 4px 8px 0 rgba(254, 254, 254, 0.2), 0 6px 20px 0 rgba(241, 241, 241, 0.2);
         border-style: solid;
-        margin-top: -250px;
+        margin-top: -20px;
     }
     
   
@@ -935,18 +935,9 @@ display: none;
         color: #E0E0E0;
         font-size: 2rem;
         font-weight: 800;
-        padding-top: 30px;
+        padding-top: 0px;
     }
     
-    .productlineph1 h3 {
-        text-align: center;
-        float: none;
-        width: 100%;
-        color: #E0E0E0;
-        font-size: 1.4em;
-        font-weight: 800;
-        padding-top: 30px;
-    }
     .productlineph1 p {
         float: none;
         text-align: center;
