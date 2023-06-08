@@ -632,17 +632,20 @@ Author URI: http://www.xpeedstudio.com
 .space1 {
   margin-top: 40px;
   background-color: transparent;
-  background: url(../images/hero-bg.png);
+  /* background: url(../images/hero-bg.png); */
   background-size: cover;
   height: auto;
+  width: 100%;
   
 }
 .space1 h1 {
   font-weight: 700;
   word-spacing: normal;
-  font-size: 2em;
+  font-size: 1.5em;
+  width: 100%;
   color: #223666;
 text-align: center;
+line-height: 55%;
 }
 
 .container-section4 img {
