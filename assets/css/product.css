@@ -415,7 +415,7 @@ background-color: #414141;
   
   .contentproduct {
     padding: 0 10px;
-    display: contents;
+    display: none;
     /* height: 200px; */
     background-color: transparent;
     font-size: small;
