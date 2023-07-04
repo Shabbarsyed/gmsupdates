@@ -416,12 +416,17 @@ background-color: #414141;
   .contentproduct {
     padding: 0 10px;
     display: contents;
-    height: 200px;
-    overflow: auto;
+    /* height: 200px; */
     background-color: transparent;
     font-size: small;
+    
+    
   }
- 
+
+  .giveflow{
+    height: 200px;
+  }
   .companydetails {
     margin-top: -20px;
+    overflow: auto;
   }
