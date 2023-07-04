@@ -131,9 +131,10 @@
 
 .productlinecard1 h1 {
     font-size: 2em;
-    color: #E0E0E0;
+    color: #FFFFFF;
     margin-top: 30px;
     width: 95%;
+    font-weight: 700;
 }
 .productlinecard1 h3{
     font-size: 1.2em;
@@ -178,16 +179,20 @@
 
 
 .productlinecard2 img{
-    width: 95%;
+    width: 96%;
+    height: 43%;
     margin-top: 10px;
     border-radius: 10px;
+    /* box-shadow: rgb(255, 255, 255) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; */
+
 }
 
 .productlinecard2 h1 {
     font-size: 2em;
-    color: #E0E0E0;
+    color: #FFFFFF;
     margin-top: 30px;
     width: 95%;
+    font-weight: 700;
 }
 .productlinecard2 h3{
     font-size: 1.2em;
