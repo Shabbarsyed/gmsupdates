@@ -1977,6 +1977,7 @@ transform: rotate(90deg);
     text-align: center;
     position: relative;
     color: #fff;
+    display: fit-content;
 }
 .our-team img{
     width: 100%;
@@ -1990,7 +1991,7 @@ transform: rotate(90deg);
     left: 0;
     top: 0;
     text-align: center;
-    padding-top: 15%;
+    padding-top: 10%;
     transform: perspective(600px) rotateX(-90deg);
     transform-origin: center top 0;
     transition: all 0.5s ease 0s;
@@ -2005,14 +2006,18 @@ transform: rotate(90deg);
     margin: 0 0 10px;
     display: block;
     font-size: 25px;
-    font-weight: 600;
-    color: #E0E0E0 ;
+    font-weight: 800;
+    color: #FFFFFF ;
     background-color: transparent;
 }
 .our-team .content .post{
     margin: 0 0 25px;
     display: block;
-    font-size: 15px
+    font-size: 15px;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    opacity: 80%;
 }
 .our-team .social{
     margin: 0;

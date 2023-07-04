@@ -397,11 +397,9 @@ background-color: #414141;
 
 
 .collapsiblelist {
-    
     color: #EEEEEE;
-    font-weight: 800;
+    font-weight: 500;
     cursor: pointer;
-
     width: 50%;
     height: fit-content;
     border: none;
@@ -416,8 +414,14 @@ background-color: #414141;
   }
   
   .contentproduct {
-    padding: 0 18px;
-    display: none;
-    overflow: hidden;
+    padding: 0 10px;
+    display: contents;
+    height: 200px;
+    overflow: auto;
     background-color: transparent;
+    font-size: small;
+  }
+ 
+  .companydetails {
+    margin-top: -20px;
   }
