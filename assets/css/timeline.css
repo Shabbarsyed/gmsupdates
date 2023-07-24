@@ -301,7 +301,7 @@ align-items: center;
 	.eventtimeline {
 		width: 80%;
 		display: block;
-		height: 450px;
+		height: fit-content;
 		justify-content: center;
 		align-items: center;
 		text-align: center;
@@ -395,7 +395,7 @@ align-items: center;
 	padding-top: 50px;
 	width: 80%;
 	display: block;
-	height: 520px;
+	height: fit-content;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
@@ -403,6 +403,7 @@ align-items: center;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 50px;
+	padding-bottom: 30px;
 }
 
 .eventtimeline2  .eventtext h1{
