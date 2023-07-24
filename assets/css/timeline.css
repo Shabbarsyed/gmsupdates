@@ -1,5 +1,6 @@
+@media (min-width : 1280px) {
 
-
+	
 .eventph h3 {
     width: 100%;
     color: #223666;
@@ -260,6 +261,8 @@ align-items: center;
 
 
 
+}
+
 
 
 
@@ -269,7 +272,8 @@ align-items: center;
 
 @media (max-width : 768px) {
 
-	/* .eventph h3 {
+
+	.eventph h3 {
 		
 		color: #223666;
 		font-size: 2rem;
@@ -286,27 +290,18 @@ align-items: center;
     .eventph {
         justify-content: center;
         align-items: center;
-
-    } */
-
-	
-.eventtimeline2 {
-	padding-top: 50px;
-	/* width: 80%;
-	height: auto;
-	display: flex;
-	position: relative;
-	margin-left: auto;
-	margin-right: auto;
-	justify-content: center;
-	align-items: center; */
-	
-}
-	
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+		color: #424242;
+		width: 90%;
+		margin-bottom: 20px;
+		text-align: justify center;
+    }
 	.eventtimeline {
 		width: 80%;
 		display: block;
-		height: 400px;
+		height: 450px;
 		justify-content: center;
 		align-items: center;
 		text-align: center;
@@ -397,6 +392,7 @@ align-items: center;
 
 
 .eventtimeline2 {
+	padding-top: 50px;
 	width: 80%;
 	display: block;
 	height: 520px;
@@ -457,20 +453,47 @@ align-items: center;
 
 .eventbg .eventimg img{
 border-radius: 10px 10px 10px 10px;
-float: right;
+/* float: right; */
 width: 100%;
 }
 
 .eventtimeline .eventimg img{
 	border-radius: 10px 10px 10px 10px;
-	float: right;
+	/* float: right; */
 	width: 100%;
+	float: none ;
+	
 	}
 
  .eventbg .statusevent p{
 	color: #424242;
 }
 
+.eventbg {
+	background-color: #424242;
+	height: fit-content;
+	margin-bottom: 50px;
+	justify-content: center;
+	align-items: center;
+	
+	}
+
+
+	.eventtimeline2 .eventtext h5{
+		color: white;
+		font-size: 8px;
+		
+	}
+	
+	
+	.eventtimeline  h5{
+		color: #424242;
+		font-size: 8px;
+	}
+
+	.eventtimeline2 .eventdetailbtn button{
+		margin-bottom: 20px;
+	}
 
 }
 
