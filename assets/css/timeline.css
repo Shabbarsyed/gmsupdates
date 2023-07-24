@@ -257,6 +257,16 @@ align-items: center;
 	float: right;
 }
 
+
+
+
+
+
+
+
+
+
+
 @media (max-width : 768px) {
 
 	.eventph h3 {
@@ -279,7 +289,6 @@ align-items: center;
 
     }
 
-	
 	
 .eventtimeline2 {
 	padding-top: 50px;
@@ -308,7 +317,7 @@ align-items: center;
 	}
 	.eventtimeline .eventtext {
 		margin-top: 0px;
-		width: 40%;
+		
 		float: left;
 	}
 	
