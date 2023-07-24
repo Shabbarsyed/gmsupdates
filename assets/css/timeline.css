@@ -269,7 +269,7 @@ align-items: center;
 
 @media (max-width : 768px) {
 
-	.eventph h3 {
+	/* .eventph h3 {
 		
 		color: #223666;
 		font-size: 2rem;
@@ -287,7 +287,7 @@ align-items: center;
         justify-content: center;
         align-items: center;
 
-    }
+    } */
 
 	
 .eventtimeline2 {
@@ -313,11 +313,10 @@ align-items: center;
 		position: relative;
 		margin-left: auto;
 		margin-right: auto;
-		
+		margin-bottom: 50px;
 	}
 	.eventtimeline .eventtext {
 		margin-top: 0px;
-		
 		float: left;
 	}
 	
@@ -400,14 +399,14 @@ align-items: center;
 .eventtimeline2 {
 	width: 80%;
 	display: block;
-	height: 500px;
+	height: 520px;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
 	position: relative;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 30px;
+	margin-bottom: 50px;
 }
 
 .eventtimeline2  .eventtext h1{
@@ -456,11 +455,17 @@ align-items: center;
    border-style: double;
 }
 
-/* .eventbg .eventimg img{
+.eventbg .eventimg img{
 border-radius: 10px 10px 10px 10px;
 float: right;
 width: 100%;
-} */
+}
+
+.eventtimeline .eventimg img{
+	border-radius: 10px 10px 10px 10px;
+	float: right;
+	width: 100%;
+	}
 
  .eventbg .statusevent p{
 	color: #424242;
