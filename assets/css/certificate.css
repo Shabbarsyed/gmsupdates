@@ -39,7 +39,7 @@
     
     .textcertificateimg img{
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        width: 50%;
+        width: 300px;
         float: right;
         padding-left: 20px;
         margin-top: 20px;
@@ -72,7 +72,7 @@
     }
     
     .textcertificate h1 {
-        font-size: 2em;
+        font-size: 1em;
         color: #223666;
         font-weight: 800;
     }
