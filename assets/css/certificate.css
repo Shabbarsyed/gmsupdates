@@ -18,10 +18,12 @@
     }
     
     .textcertificate h1 {
-        font-size: 2.5em;
+        font-size: 1.6em;
         color: #223666;
         font-weight: 800;
     }
+
+    
     
     .textcertificate p {
         color: #424242;
@@ -36,6 +38,7 @@
     }
     
     .textcertificateimg img{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         width: 50%;
         float: right;
         padding-left: 20px;
@@ -44,6 +47,7 @@
         align-items: center;
         margin-right: auto;
         margin-left: auto;
+
 
     }
 }

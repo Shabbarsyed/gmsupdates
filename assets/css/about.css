@@ -127,8 +127,8 @@ display: none;
 .aboutbanner {
     width: 100%;
     /* height: 80vh; */
-    /* background: url(../images/aboutbanner.jpg) no-repeat ;
-    background-size: cover; */
+    background: url(../images/aboutbanner.jpg) no-repeat ;
+    background-size: cover;
     margin-top: -80px;
 }
 
