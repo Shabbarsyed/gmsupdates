@@ -1984,7 +1984,7 @@ transform: rotate(90deg);
     height: 100%;
 }
 .our-team .content{
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.9);
     position: absolute;
     height: 100%;
     width: 100%;
@@ -2000,6 +2000,7 @@ transform: rotate(90deg);
 .our-team:hover .content,
 .our-team.active .content{
     opacity: 1;
+
     transform: perspective(400px) rotateX(0deg);
 }
 .our-team .content .title{

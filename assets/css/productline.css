@@ -1,32 +1,52 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:900&display=swap");
 
-
+@media (min-width: 768px) {
 .productlinepage {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 20px;
-    padding-bottom: 10px;
+    /* padding-top: 20px; */
+    /* padding-bottom: 20px; */
     display: flex;
     justify-content: row;
+    
+}
+
+.buttonsvidas {
+    margin-right: 50px;
 }
 
 
 
+/* *{
+    font-family: 'Open Sans', sans-serif;
+} */
+
+
+
 .productlineph {
-    margin-top: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     width: 80%;
     height: 70vh;
     justify-content: center;
         align-items: center;
         float: left;
-        
+        font-family: 'Open Sans', sans-serif;
+
     }
     
     
     .productlineph img {
-        width: 60%;
+        margin-top: 80px;
+        width: 70%;
         float: right;
+       
+    }
+
+    .productlineph {
+       margin: auto;
+
     }
     
     
@@ -34,9 +54,12 @@
         float: left;
         width: 100%;
         color: #223666;
-        font-size: 2.5rem;
-        font-weight: 800;
+        font-size: 2rem;
+        font-weight: 600;
+        font-family: 'Montserrat', sans-serif;
         padding-top: 30px;
+        font-family: 'Open Sans', sans-serif;
+
     }
     
     .productlineph h3 {
@@ -44,8 +67,10 @@
         width: 100%;
         color: #223666;
         font-size: 1.8em;
-        font-weight: 800;
+        font-weight: 600;
         padding-top: 30px;
+        font-family: 'Open Sans', sans-serif;
+
     }
     .productlineph p {
         float: left;
@@ -53,6 +78,8 @@
         margin-left: auto;
         margin-right: auto;
         width: 80%;
+        font-family: 'Open Sans', sans-serif;
+
     }
     
 
@@ -66,10 +93,11 @@
     margin-top: 100px;
     left: 140px;
     position: absolute;
-    font-size: 4em;
-    font-weight: 800;
+    font-size: 3em;
+    font-weight: 600;
     z-index: 2;
     color: white;
+    font-family: 'Montserrat', sans-serif;
 }
 .productimg .overlays .p1 p{
     margin-top: 180px;
@@ -115,11 +143,43 @@
 .itemsdiv {
     justify-content: center;
     display: flex;
+    flex-direction: column;
     margin-top: -180px;
       width: 100%;
-      height: 90vh;
+      height: fit-content;
+      margin-bottom: 20px;
       background-image: linear-gradient(to bottom, rgb(75, 73, 73), rgba(66,66,66,4));
 
+}
+.buttonsvidas {
+    margin-right: 80px;
+}
+
+.buttonsvidas a {
+    margin-right: 10px;
+    float: right;
+    width: fit-content;
+    margin-bottom: 20px;
+}
+/* .buttonsvidas a button{
+    align-items: center;
+    font-weight: 600;
+    font-size: 14px;
+   
+    color: #223666;
+    background-color: #FFFFFF;
+    margin-bottom: 20px;
+    float: right;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 10px;
+}  */
+
+.itemsdiv a button:hover{
+    font-weight: 600;
+    transition: height 2s;
+    background-color:#223666 ;
+    color: #FFFFFF;
 }
 
 
@@ -130,16 +190,17 @@
 }
 
 .productlinecard1 h1 {
-    font-size: 2em;
+    font-size: 1.8em;
     color: #FFFFFF;
     margin-top: 30px;
     width: 95%;
-    font-weight: 700;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
 }
 .productlinecard1 h3{
     font-size: 1.2em;
-    color: #E0E0E0;
-    margin-top: 20px;
+    color: #acabab;
+    margin-top: 10px;
     width: 95%;
 }
 
@@ -163,11 +224,11 @@
     border-radius: 80%;
 }
 
-.productlinecard1:hover {
+/* .productlinecard1:hover {
     margin-top: 20px;
     transition-duration: 0ms;
     
-}
+} */
 
 .productlinecard1 {
     width: 100%;
@@ -179,8 +240,7 @@
 
 
 .productlinecard2 img{
-    width: 96%;
-    height: 43%;
+    width: 95%;
     margin-top: 10px;
     border-radius: 10px;
     /* box-shadow: rgb(255, 255, 255) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; */
@@ -192,12 +252,13 @@
     color: #FFFFFF;
     margin-top: 30px;
     width: 95%;
-    font-weight: 700;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
 }
 .productlinecard2 h3{
     font-size: 1.2em;
-    color: #E0E0E0;
-    margin-top: 20px;
+    color: #acabab;
+    margin-top: 10px;
     width: 95%;
 }
 
@@ -220,11 +281,11 @@
     border-radius: 80%;
 }
 
-.productlinecard2:hover {
+/* .productlinecard2:hover {
     margin-top: 20px;
     transition-duration: 0ms;
     
-}
+} */
 
 .productlinecard2 {
     width: 100%;
@@ -283,14 +344,17 @@
         border-style: solid;
     }
     
+    .fade-in-image { animation: fadeIn 10s; }
     
     .productlineph1 h1 {
         float: left;
         width: 100%;
         color: #E0E0E0;
-        font-size: 2.5rem;
-        font-weight: 800;
+        font-size: 2rem;
+        font-weight: 600;
         padding-top: 30px;
+        font-family: 'Open Sans', sans-serif;
+
     }
     
     .productlineph1 h3 {
@@ -298,8 +362,10 @@
         width: 100%;
         color: #E0E0E0;
         font-size: 1.8em;
-        font-weight: 800;
+        font-weight: 600;
         padding-top: 30px;
+        font-family: 'Open Sans', sans-serif;
+
     }
     .productlineph1 p {
         float: left;
@@ -307,6 +373,8 @@
         margin-left: auto;
         margin-right: auto;
         width: 80%;
+        font-family: 'Open Sans', sans-serif;
+
     }
    
 
@@ -407,7 +475,7 @@
     }
 
 
-    
+}
 
 
 @media (max-width: 768px) {
@@ -494,7 +562,7 @@
     font-size: 1.2em;
     color: #E0E0E0;
     margin-top: 30px;
-    width: 95%;
+    width: 95%;    
 }
 .productlinecard1 h3{
     font-size: 0.8em;
@@ -673,6 +741,8 @@
         margin-right: 35px;
         margin-top: -60px;
         margin-bottom: 20px;
+        font-family: 'Open Sans', sans-serif;
+
     }
     
     
@@ -682,6 +752,8 @@
         font-size: 1.6em;
         font-weight: 800;
         text-align: center;
+        font-family: 'Open Sans', sans-serif;
+
     }
     
     .productlineph1 h3 {
@@ -690,6 +762,8 @@
         color: #E0E0E0;
         font-size: 1.6em;
         font-weight: 800;
+        font-family: 'Open Sans', sans-serif;
+
         
     }
     .productlineph1 p {
@@ -697,6 +771,8 @@
         align-items: center;
         text-align: center;
         margin-left: 40px;
+        font-family: 'Open Sans', sans-serif;
+
     }
     
     .productlineph3 img {
