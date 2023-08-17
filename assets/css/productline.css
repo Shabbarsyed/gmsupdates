@@ -26,8 +26,8 @@
 
 
 .productlineph {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
     width: 80%;
     height: 70vh;
     justify-content: center;
@@ -45,10 +45,7 @@
        
     }
 
-    .productlineph {
-       margin: auto;
-
-    }
+    
     
     
     .productlineph h1 {
