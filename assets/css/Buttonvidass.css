@@ -39,3 +39,22 @@
   }
   
   
+  @media (max-width: 768px) {
+
+	.btnn {
+		text-decoration: none;
+		font-size: 1rem;
+		user-select: none;
+		color: #ffffff;
+		display: flex;
+		align-items: center;
+	  }
+	  
+	  
+	
+	  .btnn:hover {
+		color: #cfcece;
+		font-size: medium;
+		font-weight: 600;
+	  }
+  }
