@@ -93,11 +93,11 @@
     margin-top: 40px;
     margin-bottom: 40px;
     width: 80%;
-    height: 70vh;
+    height: fit-content;
     justify-content: center;
-        align-items: center;
-        float: left;
-        font-family: 'Open Sans', sans-serif;
+    align-items: center;
+    float: left;
+    font-family: 'Open Sans', sans-serif;
 
     }
     
@@ -195,7 +195,7 @@
 
 }
 .buttonsvidas {
-    margin-right: 80px;
+    margin-right: 120px;
 }
 
 .buttonsvidas a {
@@ -526,6 +526,14 @@
         margin-bottom: auto;
     }
 
+
+    .productlineph ul{
+        list-style:circle;
+        margin: none;
+        color: #424242;
+       }
+      
+
 }
 
 
@@ -602,7 +610,7 @@
 .buttonsvidas a {
     width: fit-content;
     display: inline;
-   
+   margin-bottom: 20px;
 }
 
 .buttonsvidas{
@@ -716,6 +724,7 @@
         width: 80%;
         margin-left: auto;
         margin-right: auto;
+        text-align: justify;
     }
     
 /*     

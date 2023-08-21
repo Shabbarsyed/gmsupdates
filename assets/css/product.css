@@ -218,6 +218,20 @@ background-color: #414141;
 
     }
 
+ 
+    .content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* .content a{
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+
+    } */
+
 @media (max-width : 768px) {
 
     .centerform .pd{
