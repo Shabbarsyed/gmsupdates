@@ -246,6 +246,12 @@
     margin-top: 10px;
     width: 95%;
 }
+.productlinecard1 p {
+    font-size: 0.8em;
+    color: #acabab;
+    margin-top: 10px;
+    width: 95%;
+}
 
 
 .itemcontain {
@@ -300,6 +306,13 @@
 }
 .productlinecard2 h3{
     font-size: 1.2em;
+    color: #acabab;
+    margin-top: 10px;
+    width: 95%;
+}
+
+.productlinecard2 p{
+    font-size: 0.8em;
     color: #acabab;
     margin-top: 10px;
     width: 95%;

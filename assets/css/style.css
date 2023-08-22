@@ -54,7 +54,7 @@ body {
 /*   IE10 in Windows 8 and Windows Phone 8 Bug fix
 /*-----------------------------------------------------------------*/
 
-@-webkit-viewport { width: device-width; }
+@-webkit-viewport  { width: device-width; }
 @-moz-viewport { width: device-width; }
 @-ms-viewport { width: device-width; }
 @-o-viewport { width: device-width; }
@@ -1984,7 +1984,7 @@ transform: rotate(90deg);
     height: 100%;
 }
 .our-team .content{
-    background: rgba(0, 0, 0, 0.9);
+    background: #FAF9F6;
     position: absolute;
     height: 100%;
     width: 100%;
@@ -2000,7 +2000,6 @@ transform: rotate(90deg);
 .our-team:hover .content,
 .our-team.active .content{
     opacity: 1;
-
     transform: perspective(400px) rotateX(0deg);
 }
 .our-team .content .title{
