@@ -558,6 +558,44 @@
 
 @media (max-width: 768px) {
 
+    
+
+.Clinical {
+    padding-top: 90px;
+    margin-top: 30px;
+   height: 65vh;
+   background-color: #c4c4c4;
+}
+
+.Clinicalcontent {
+    position: relative;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+
+.Clinicalcontent  h1{
+    text-align: center;
+    font-size: 2em;
+    font-weight: 600;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+.Clinicalcontent  p{
+    font-size: 1em;
+    font-weight: 500;
+    color: #E0E0E0;
+    width: 90%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+    
  
 .productimg .overlays h1{
     /* margin-top: 140px; */
@@ -739,62 +777,7 @@
         margin-right: auto;
         text-align: justify;
     }
-    
-/*     
-
-.productlineph1 {
-    margin-top: 80px;
-    height: 70vh;
-    justify-content: center;
-    align-items: center;
-    }
-    
-    
-    .productlineph1 img {
-        width: 100%;
-        border-radius: 12px;
-        border-width: thick;
-        border-color: #E0E0E0;
-        box-shadow: 0 4px 8px 0 rgba(254, 254, 254, 0.836), 0 6px 20px 0 rgba(241, 241, 241, 0.808);
-        border-style: solid;
-    }
-    
-    .productlinepage1 {
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-        display: table;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    
-    }
-    
-
-    
-    .productlineph1 h1 {
-        text-align: center;
-        color: #E0E0E0;
-        font-size: 1.6rem;
-        font-weight: 800;
-        
-    }
-    
-    .productlineph1 h3 {
-      
-       
-        color: #E0E0E0;
-        font-size: 1.6em;
-        font-weight: 800;
-        padding-top: 30px;
-    }
-    .productlineph1 p {
-    
-        color: #E0E0E0;
-        margin-left: auto;
-        margin-right: auto;
-    } */
-
+   
     .productlinepagegrey {
         width: 100%;
         background-color: #424242;
