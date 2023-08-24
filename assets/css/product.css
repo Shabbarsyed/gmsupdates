@@ -6,6 +6,7 @@ width: 100%;
 }
 .Productdisplayview {
     width: 80%;
+    margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 30px;
@@ -235,6 +236,11 @@ background-color: #414141;
 @media (max-width : 768px) {
 
 
+
+    .Productdisplayview {
+       
+        margin-top: 100px;
+    }
    
     
 
