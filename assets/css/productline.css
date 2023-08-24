@@ -229,6 +229,7 @@
     width: 95%;
     margin-top: 10px;
     border-radius: 10px;
+    height: 200px;
 }
 
 .productlinecard1 h1 {
@@ -247,7 +248,7 @@
 }
 .productlinecard1 p {
     font-size: 0.8em;
-    color: #acabab;
+    color:  #dddbdb;
     margin-top: 10px;
     width: 95%;
 }
@@ -291,6 +292,7 @@
     width: 95%;
     margin-top: 10px;
     border-radius: 10px;
+    height: 200px;
     /* box-shadow: rgb(255, 255, 255) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; */
 
 }
@@ -312,7 +314,7 @@
 
 .productlinecard2 p{
     font-size: 0.8em;
-    color: #acabab;
+    color: #dddbdb;
     margin-top: 10px;
     width: 95%;
 }
