@@ -2406,8 +2406,82 @@ transform: rotate(90deg);
     width: 100%;
   }
 
+  .stripabout {
+    height: 200px;
+    background-color: transparent;
+    position: relative;
+    display: flex;
+    width: 100%;
+  }
 
+  .striphome {
+    height: 40px;
+    background-color: transparent;
+    position: relative;
+    display: flex;
+    width: 100%;
+  }
+
+  .stripblog {
+    height: 160px;
+    background-color: transparent;
+    position: relative;
+    display: flex;
+    width: 100%;
+  }
+
+  .stripcontactus{
+    height: 160px;
+    background-color: transparent;
+    position: relative;
+    display: flex;
+    width: 100%;
+  }
+
+  .stripnews {
+    height: 200px;
+    background-color: transparent;
+    position: relative;
+    display: flex;
+    width: 100%;
+  }
+
+  .stripcarrer {
+    height: 200px;
+    background-color: transparent;
+    position: relative;
+    display: flex;
+    width: 100%;
+  }
+  .stripevent {
+    height: 200px;
+    background-color: transparent;
+    position: relative;
+    display: flex;
+    width: 100%;
+  }
+  .stripcertificates {
+    height: 200px;
+    background-color: transparent;
+    position: relative;
+    display: flex;
+    width: 100%;
+  }
+  .stripsecurity {
+    height: 200px;
+    background-color: transparent;
+    position: relative;
+    display: flex;
+    width: 100%;
+  }
  
+  .stripterms {
+    height: 200px;
+    background-color: transparent;
+    position: relative;
+    display: flex;
+    width: 100%;
+  }
 .content1 {
     width: 100%;
     height: 200px;
