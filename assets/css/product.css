@@ -1,5 +1,5 @@
 
-@media (min-width : 768px) {
+
 .containercard
 {
 display: flex;
@@ -239,8 +239,52 @@ background-color: #414141;
     .content a img{
         width: 90px; height:100%; 
     }
+    
 
-}
+.collapsiblelist {
+    color: #EEEEEE;
+    font-weight: 500;
+    cursor: pointer;
+    width: 50%;
+    height: fit-content;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 10px;
+    background-color: transparent;
+  }
+  
+  .active, .collapsiblelist:hover {
+    background-color: transparent;
+  }
+  
+  .contentproduct {
+    padding: 0 10px;
+    display: none;
+    /* height: 200px; */
+    background-color: transparent;
+    font-size: small;
+    
+    
+  }
+
+  .giveflow{
+    height: 200px;
+  }
+  .companydetails {
+    margin-top: -20px;
+    overflow: auto;
+  }
+
+
+  /* .content img{
+    height: 10px;
+  } */
+
+
+
+
+
 
 @media (max-width : 768px) {
 
@@ -428,48 +472,5 @@ background-color: #414141;
 }
 
 
-
-
-
-
-.collapsiblelist {
-    color: #EEEEEE;
-    font-weight: 500;
-    cursor: pointer;
-    width: 50%;
-    height: fit-content;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 10px;
-    background-color: transparent;
-  }
-  
-  .active, .collapsiblelist:hover {
-    background-color: transparent;
-  }
-  
-  .contentproduct {
-    padding: 0 10px;
-    display: none;
-    /* height: 200px; */
-    background-color: transparent;
-    font-size: small;
-    
-    
-  }
-
-  .giveflow{
-    height: 200px;
-  }
-  .companydetails {
-    margin-top: -20px;
-    overflow: auto;
-  }
-
-
-  /* .content img{
-    height: 10px;
-  } */
 
 
