@@ -98,7 +98,7 @@
 .productlineph {
     margin-top: 40px;
     margin-bottom: 40px;
-    width: 80%;
+    width: 100%;
     height: fit-content;
     justify-content: center;
     align-items: center;
@@ -110,7 +110,7 @@
     
     .productlineph img {
         margin-top: 80px;
-        width: 70%;
+        width: 90%;
         float: right;
        
     }
@@ -145,7 +145,7 @@
         color: #424242;
         margin-left: auto;
         margin-right: auto;
-        width: 80%;
+        width: 100%;
         font-family: 'Open Sans', sans-serif;
         text-align: justify;
 
