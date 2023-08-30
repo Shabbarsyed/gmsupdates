@@ -147,6 +147,7 @@
         margin-right: auto;
         width: 80%;
         font-family: 'Open Sans', sans-serif;
+        text-align: justify;
 
     }
     
@@ -257,6 +258,7 @@
     color:  #dddbdb;
     margin-top: 10px;
     width: 95%;
+    text-align: justify;
 }
 
 
@@ -323,7 +325,13 @@
     color: #dddbdb;
     margin-top: 10px;
     width: 95%;
+    text-align: justify;
+    
 }
+
+ul.a {
+    list-style-type: circle;
+  }
 
 
 .itemcontain {
