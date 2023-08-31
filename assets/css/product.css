@@ -237,7 +237,23 @@ background-color: #414141;
 
 
     .content a img{
-        width: 90px; height:100%; 
+        width: 90px; 
+        height:100%; 
+    }
+
+
+    #box2 a {
+        margin: auto;
+        width: 80%; 
+        height:100%; 
+        align-items: center;
+    }
+
+    #box2 a img {
+        width: 50%;
+        height: 50%; 
+        margin: auto;
+        margin-top: 40px;
     }
     
 
