@@ -115,6 +115,10 @@
        
     }
 
+#inerlab img{
+    margin-top: 200px;
+    }
+
     
     
     
@@ -149,6 +153,7 @@
         width: 100%;
         font-family: 'Open Sans', sans-serif;
         text-align: justify;
+        font-size: 1.1rem;
 
     }
     
@@ -255,13 +260,17 @@
     width: 95%;
 }
 .productlinecard1 p {
-    font-size: 0.8em;
+    font-size: 0.9em;
     color:  #dddbdb;
     margin-top: 10px;
     width: 95%;
-    text-align: justify;
+    
 }
 
+#minicap p{
+    font-size: 1.1em;
+    color:  #bdbbbb;
+}
 
 .itemcontain {
     width: 80%;
