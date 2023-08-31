@@ -767,11 +767,13 @@ ul.a {
 
 
 .productlineph {
-    width: 100%;
+    width: 80%;
     height: fit-content;
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
     }
     
     .productlineph img {
