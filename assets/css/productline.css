@@ -1,5 +1,135 @@
 
 @media (min-width: 768px) {
+      
+    #arcadiaC{
+        padding-top: 64px;
+        padding-bottom: 64px;
+    }
+      /* .default-breadcrumb {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        list-style: none;
+        margin-bottom: 0px; 
+        font-size: 1.3rem;
+        background-color: #424242;
+      }
+      .default-breadcrumb li.crumb {
+        position: relative;
+        padding: 0.25em;
+        background-color: #eaecf1;
+        color: #8093a7;
+      }
+      .default-breadcrumb li.crumb::after {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 100%;
+        height: 100%;
+        width: 1.5em;
+        background-color: #eaecf1;
+        clip-path: polygon(50% 50%, -50% -50%, 0 100%);
+      }
+      .default-breadcrumb li.crumb::before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 1px;
+        height: 100%;
+        width: 1.5em;
+        background-color: #eaecf1;
+        clip-path: polygon(100% 0, 100% 100%, 0% 100%, 50% 50%, 0% 0%);
+        transform: translateX(-100%);
+      }
+      .default-breadcrumb li.crumb:not(:first-child) {
+        margin-left: 2em;
+      }
+      .default-breadcrumb li.crumb:first-child {
+        padding-left: 0.5em;
+        border-radius: 5px 0 0 5px;
+      }
+      .default-breadcrumb li.crumb:first-child::before {
+        display: none;
+      }
+      .default-breadcrumb li.crumb:last-child {
+        padding-right: 1em;
+        border-radius: 0 5px 5px 0;
+      }
+      .default-breadcrumb li.crumb:last-child::after {
+        display: none;
+      }
+      .default-breadcrumb li.crumb.active {
+        background-color: #00b0ff;
+        color: #ffffff;
+      }
+      .default-breadcrumb li.crumb.active::before, .default-breadcrumb li.crumb.active::after {
+        background-color: #00b0ff;
+      }
+      .default-breadcrumb li.crumb .link {
+        max-width: 250px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+      .default-breadcrumb li.crumb a {
+        color: #8093a7;
+      }
+      .default-breadcrumb li.crumb a:hover {
+        color: #00b0ff;
+      }
+      
+      *[dir=rtl] .default-breadcrumb li.crumb {
+        text-align: right;
+        direction: rtl !important;
+      }
+      *[dir=rtl] .default-breadcrumb li.crumb::after {
+        right: 100% !important;
+        left: unset !important;
+        background-color: #eaecf1;
+        clip-path: polygon(50% 50%, 100% 100%, 100% 0);
+      }
+      *[dir=rtl] .default-breadcrumb li.crumb::before {
+        right: 1px !important;
+        left: unset !important;
+        clip-path: polygon(0 0, 0 100%, 100% 100%, 50% 50%, 100% 0);
+        transform: translateX(100%);
+      }
+      *[dir=rtl] .default-breadcrumb li.crumb:not(:first-child) {
+        margin-right: 2em;
+        margin-left: 0;
+      }
+      *[dir=rtl] .default-breadcrumb li.crumb:first-child {
+        padding-right: 0.5em;
+        padding-left: 0;
+        border-radius: 0 5px 5px 0;
+      }
+      *[dir=rtl] .default-breadcrumb li.crumb:last-child {
+        padding-right: 0;
+        padding-left: 1em;
+        border-radius: 5px 0 0 5px;
+      } */
+
+#inkjet2{
+    width: 50%;
+}
+#arcadia {
+    margin-bottom: 80px;
+}
+
+#arcadiah{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#leciadiv2  {
+    margin-left: 100px;
+}
+
+#specimenimg {
+    margin-top: -60px;
+}
 
 .gap {
     margin-top: 120px;
@@ -304,6 +434,9 @@
     width: 100%;
 }
 
+.Clinicalcontent p{
+    text-align: justify;
+}
 
 
 /* ================================== */
@@ -377,23 +510,38 @@ ul.a {
 
 /* ================================= */
 .productlinepagegrey {
+    padding-top: 64PX;
+    padding-bottom: 64PX;
     width: 100%;
     background-color: #424242;
 }
 
 /* =================================== */
 
+.leicadiv21 {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    height: fit-content;
+
+}
+
 
 .productlinepage1 {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-       display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
+#inkjetimg img {
+    width: 60%;
+}
+#inkjetdtext {
+margin-top: 100px;
+}
 
 
 .productlineph1 {
@@ -428,7 +576,9 @@ ul.a {
         border-style: solid;
     }
     
-    .fade-in-image { animation: fadeIn 10s; }
+    .fade-in-image { 
+        animation: fadeIn 10s; 
+    }
     
     .productlineph1 h1 {
         float: left;
