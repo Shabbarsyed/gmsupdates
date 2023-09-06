@@ -5,6 +5,17 @@
         padding-top: 64px;
         padding-bottom: 64px;
     }
+
+    #CM1860text {
+        padding-top: 100px;
+    }
+    #CM1860img {
+        width: 80%;
+    }
+    #CM1950text {
+        padding-top: 60px;
+
+    }
       /* .default-breadcrumb {
         display: flex;
         flex-direction: row;
@@ -510,8 +521,8 @@ ul.a {
 
 /* ================================= */
 .productlinepagegrey {
-    padding-top: 64PX;
-    padding-bottom: 64PX;
+    /* padding-top: 64PX;
+    padding-bottom: 64PX; */
     width: 100%;
     background-color: #424242;
 }
@@ -535,6 +546,7 @@ ul.a {
     justify-content: center;
     align-items: center;
 }
+
 
 #inkjetimg img {
     width: 60%;
