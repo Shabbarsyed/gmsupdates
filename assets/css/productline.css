@@ -16,6 +16,10 @@
         padding-top: 60px;
 
     }
+
+    #IHCDiv1 {
+        margin-top: -50px;
+    }
       /* .default-breadcrumb {
         display: flex;
         flex-direction: row;
