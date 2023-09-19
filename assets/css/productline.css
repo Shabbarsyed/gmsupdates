@@ -1,6 +1,12 @@
 
 @media (min-width: 768px) {
       
+
+    .details p {
+        display: inline;
+        margin-right: 10px; /* Add spacing between items */
+    }
+    
     #arcadiaC{
         padding-top: 64px;
         padding-bottom: 64px;
@@ -318,7 +324,6 @@ width: 90%;
         font-family: 'Open Sans', sans-serif;
         text-align: justify;
         font-size: 1rem;
-
     }
     
 
