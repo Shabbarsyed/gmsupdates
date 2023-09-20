@@ -1,6 +1,10 @@
 
 @media (min-width: 768px) {
-      
+      #videoalgeria {
+        height: fit-content;
+        margin-top: 30px;
+        margin-bottom: 30px;
+      }
 
     .details p {
         display: inline;
